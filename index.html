@@ -179,14 +179,42 @@
         // --- Server Tests ---
         async function loadServerTests() {
             try {
-                // Fetch the static manifest file
-                const response = await fetch('./tests/list.json');
-                if (!response.ok) throw new Error("Manifest not found");
-                const files = await response.json();
-                renderTestsList(files);
+                // 1. Try to fetch the pre-generated manifest
+                let response = await fetch('./tests/list.json');
+                if (response.ok) {
+                    const files = await response.json();
+                    renderTestsList(files);
+                    return;
+                }
+
+                // 2. Fallback: Try to fetch the directory itself (some servers return HTML/JSON)
+                response = await fetch('./tests/');
+                if (response.ok) {
+                    const text = await response.text();
+                    // Try to parse filenames from HTML links (common for Apache/Nginx/Vite)
+                    const parser = new DOMParser();
+                    const doc = parser.parseFromString(text, 'text/html');
+                    const files = Array.from(doc.querySelectorAll('a'))
+                        .map(a => a.getAttribute('href'))
+                        .filter(href => href && href.endsWith('.txt'))
+                        .map(href => decodeURIComponent(href).split('/').pop());
+                    
+                    if (files.length > 0) {
+                        renderTestsList([...new Set(files)]);
+                        return;
+                    }
+                }
+                
+                throw new Error("No tests found");
             } catch (error) {
                 console.error("Error loading tests:", error);
-                testsList.innerHTML = '<div class="text-center py-8 text-red-500">Testlarni yuklashda xatolik yuz berdi. <br><span class="text-xs opacity-50">"tests/list.json" fayli mavjudligini tekshiring.</span></div>';
+                testsList.innerHTML = `
+                    <div class="text-center py-8 text-red-500">
+                        Testlarni yuklashda xatolik yuz berdi.
+                        <div class="text-[10px] opacity-50 mt-2">
+                            "tests/list.json" fayli mavjudligini tekshiring.
+                        </div>
+                    </div>`;
             }
         }
 

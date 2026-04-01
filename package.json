@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --port=3000 --host=0.0.0.0",
-    "build": "vite build",
+    "dev": "node -e \"const fs=require('fs');const files=fs.readdirSync('./tests').filter(f=>f.endsWith('.txt'));fs.writeFileSync('./tests/list.json',JSON.stringify(files))\" && vite --port=3000 --host=0.0.0.0",
+    "build": "node -e \"const fs=require('fs');const files=fs.readdirSync('./tests').filter(f=>f.endsWith('.txt'));fs.writeFileSync('./tests/list.json',JSON.stringify(files))\" && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

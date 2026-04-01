@@ -1,0 +1,11 @@
+# Test Savoli 1
++ To'g'ri javob 1
+- Noto'g'ri javob 1
+- Noto'g'ri javob 2
+- Noto'g'ri javob 3
+
+# Test Savoli 2
++ To'g'ri javob 2
+- Noto'g'ri javob 1
+- Noto'g'ri javob 2
+- Noto'g'ri javob 3
