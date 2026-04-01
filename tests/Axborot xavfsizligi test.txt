@@ -1,0 +1,1726 @@
+# Axborotga murojaat etishning qanday turlari mavjud?
++ Ruxsat etilgan va ruxsat etimlagan
+- O`zgartiriladigan va o`zgartirilmaydigan
+- O`chiriladigan va o`chirilmaydigan?
+- O`qiladigan va o`qilmaydigan
+
+# Axborotga murojaat etishning birinchi turi qanday nomalanadi?
++ Ruxsat etilgan
+- Ruxsat etilmaydigan
+- O`zgartiriladigan
+- O`zgrtirilmaydigan
+
+# Kompyuter tizimlari va tarmoqlarining xavfsizligi degani nima?
++ ular me`yoriy ishlash jarayoniga tasodifiy yoki oldindan mo’ljallangan aralashishdan hamda ularning tashkil etuvchilarini o’g’irlashga, o’zgartirishga yoki buzishga bo’lgan intilishlardan himoya qilinishi
+- axborot bilan tanishib chiqish, uni qayta ishlash, nusxalash, o’zgartirish va yo’qotish tushuniladi
+- murojaat qilish cheklanishlariga o’rnatilgan qoidalarni buzmaydigan, axborotga murojaat qilishdir
+- murojaat qilish cheklanishlariga o’rnatilgan qoidalarning buzilishi bilan tavsiflanadi
+
+# Axborotga murojaat qilish deganda nimani tushunasiz?
++ axborot bilan tanishib chiqish, uni qayta ishlash, nusxalash, o’zgartirish va yo’qotish tushuniladi
+- ular me`yoriy ishlash jarayoniga tasodifiy yoki oldindan mo’ljallangan aralashishdan hamda ularning tashkil etuvchilarini o’g’irlashga, o’zgartirishga yoki buzishga bo’lgan intilishlardan himoya qilinishi
+- murojaat qilish cheklanishlariga o’rnatilgan qoidalarni buzmaydigan, axborotga murojaat qilishdir
+- murojaat qilish cheklanishlariga o’rnatilgan qoidalarning buzilishi bilan tavsiflanadi
+
+# Axborotga ruxsat etilgan murojaat qilish degandda nimani tushunasiz?
++ murojaat qilish cheklanishlariga o’rnatilgan qoidalarni buzmaydigan, axborotga murojaat qilishdir
+- murojaat qilish cheklanishlariga o’rnatilgan qoidalarning buzilishi bilan tavsiflanadi
+- ular me`yoriy ishlash jarayoniga tasodifiy yoki oldindan mo’ljallangan aralashishdan hamda ularning tashkil etuvchilarini o’g’irlashga, o’zgartirishga yoki buzishga bo’lgan intilishlardan himoya qilinishi
+- axborot bilan tanishib chiqish, uni qayta ishlash, nusxalash, o’zgartirish va yo’qotish tushuniladi
+
+# Axborotga ruxsat etilmagan murojaat qilish deganda nimani tushunasiz?
++ murojaat qilish cheklanishlariga o’rnatilgan qoidalarning buzilishi bilan tavsiflanadi
+- ular me`yoriy ishlash jarayoniga tasodifiy yoki oldindan mo’ljallangan aralashishdan hamda ularning tashkil etuvchilarini o’g’irlashga, o’zgartirishga yoki buzishga bo’lgan intilishlardan himoya qilinishi
+- axborot bilan tanishib chiqish, uni qayta ishlash, nusxalash, o’zgartirish va yo’qotish tushuniladi
+- murojaat qilish cheklanishlariga o’rnatilgan qoidalarni buzmaydigan, axborotga murojaat qilishdir
+
+# Berilganlarning maxfiyligi degani nima?
++ berilganlarga taqdim etilgan va ularni himoya qilishni talab etilgan darajasini aniqlaydigan maqomdir
+- murojaat qilish cheklanishlariga o’rnatilgan qoidalarning buzilishi bilan tavsiflanadi
+- ular me`yoriy ishlash jarayoniga tasodifiy yoki oldindan mo’ljallangan aralashishdan hamda ularning tashkil etuvchilarini o’g’irlashga, o’zgartirishga yoki buzishga bo’lgan intilishlardan himoya qilinishi
+- axborot bilan tanishib chiqish, uni qayta ishlash, nusxalash, o’zgartirish va yo’qotish tushuniladi
+
+# Kompyuter tizimlariga hujum degani nima?
++ tizimning u yoki bu bog’liqligini qidirish va ishlatish ma`nosini bildiradigan, yomon niyatli odam tomonidan bajariladigan harakatdir
+- berilganlarga taqdim etilgan va ularni himoya qilishni talab etilgan darajasini aniqlaydigan maqomdir
+- murojaat qilish cheklanishlariga o’rnatilgan qoidalarning buzilishi bilan tavsiflanadi
+- ular me`yoriy ishlash jarayoniga tasodifiy yoki oldindan mo’ljallangan aralashishdan hamda ularning tashkil etuvchilarini o’g’irlashga, o’zgartirishga yoki buzishga bo’lgan intilishlardan himoya qilinishi
+
+# Xavfsiz yoki himoya qilingan tizim degani nima?
++ xavfsizlik xavflariga muvaffaqiyatli va samarali qarshi turadigan, zarur himoya qilish vositalariga ega bo’lgan tizimdir
+- tizimning u yoki bu bog’liqligini qidirish va ishlatish ma`nosini bildiradigan, yomon niyatli odam tomonidan bajariladigan harakatdir
+- murojaat qilish cheklanishlariga o’rnatilgan qoidalarning buzilishi bilan tavsiflanadi
+- ular me`yoriy ishlash jarayoniga tasodifiy yoki oldindan mo’ljallangan aralashishdan hamda ularning tashkil etuvchilarini o’g’irlashga, o’zgartirishga yoki buzishga bo’lgan intilishlardan himoya qilinishi
+
+# Steganografiya so`zining lug`aviy ma`nosi nima?
++ Sirli yozuv
+- Sirsiz yozuv
+- So`z
+- Parol
+
+# Kriptografiya nima?
++ maxfiy xabar mazmunini shifrlash, ya`ni malumotlarni maxsus algoritm bo’yicha o’zgartirib, shifrlangan matnni yaratish yo’li bilan axborotga ruxsat etilmagan kirishga to’siq qo’yish usuliga aytiladi
+- tizimning u yoki bu bog’liqligini qidirish va ishlatish ma`nosini bildiradigan, yomon niyatli odam tomonidan bajariladigan harakatdir
+- murojaat qilish cheklanishlariga o’rnatilgan qoidalarning buzilishi bilan tavsiflanadi
+- ular me`yoriy ishlash jarayoniga tasodifiy yoki oldindan mo’ljallangan aralashishdan hamda ularning tashkil etuvchilarini o’g’irlashga, o’zgartirishga yoki buzishga bo’lgan intilishlardan himoya qilinishi
+
+# Steganografiyaning asosiy maqsadi?
++ Maxfiy xabar mavjudligini yashirish
+- Shifrlash
+- Konfedentsiallik
+- Butunlilik
+
+# Zamonaviy kompyuter steganografiyasida nechta asosiy fayl turlari mavjud?
++ 3
+- 2
+- 5
+- 4
+
+# Zamonaviy kompyuter steganografiyasida birinchi fayl turi qanday nomlanadi?
++ Xabar-fayl
+- Konteyner-fayl
+- Konteyner-original
+- Konteyner-natija
+
+# Zamonaviy kompyuter steganografiyasida ikkinchi fayl turi qanday nomlanadi?
++ Konteyner-fayl
+- Xabar-fayl
+- Konteyner-original
+- Konteyner-natija
+
+# Zamonaviy steganografiyada konteynerlar necha turga bo`linadi?
++ 2
+- 3
+- 5
+- 4
+
+# Zamonaviy steganografiyada konteynerlarning birinchi turi qanday nomlanadi?
++ Konteyner-original
+- Konteyner-natija
+- Konteyner-fayl
+- Xabar-fayl
+
+# Zamonaviy steganografiyada konteynerlarning ikkinchi turi qanday nomlanadi?
++ Konteyner-natija
+- Konteyner-original
+- Konteyner-fayl
+- Xabar-fayl
+
+# Shifrlash nima?
++ boshlang’ich axborot ustida oldingi holatga qaytish imkoniyati saqlangan holda matematik, mantiqiy va boshqa o’zgartirishlarni o’tkazishdir, buning natijasida shifrlangan axborot harflarning, raqamlarning, boshqa belgilarning tartibsiz to’plami ko’rinishiga egadir
+- ular me`yoriy ishlash jarayoniga tasodifiy yoki oldindan mo’ljallangan aralashishdan hamda ularning tashkil etuvchilarini o’g’irlashga, o’zgartirishga yoki buzishga bo’lgan intilishlardan himoya qilinishi
+- tizimning u yoki bu bog’liqligini qidirish va ishlatish ma`nosini bildiradigan, yomon niyatli odam tomonidan bajariladigan harakatdir
+- murojaat qilish cheklanishlariga o’rnatilgan qoidalarning buzilishi bilan tavsiflanadi
+
+# Zamonaviy shifrlash usullariga qo`yiladigan talablarning birinchisi?
++ Kriptochidamlilik
+- Kalit maxfiyligi
+- shifrmatn o’zi hajmi bo’yicha boshlang’ich axborotdan ko’payib ketmasligi
+- shifr xatoliklari axborotni to’siqlarga uchrashiga va yo’qolishlariga olib kelmasligi
+
+# Zamonaviy shifrlash usullariga qo`yiladigan talablarning ikkinchisi?
++ Kalit maxfiyligi
+- shifrmatn o’zi hajmi bo’yicha boshlang’ich axborotdan ko’payib ketmasligi
+- shifr xatoliklari axborotni to’siqlarga uchrashiga va yo’qolishlariga olib kelmasligi
+- shifrlash va vaqti katta bo’lmasligi
+
+# Zamonaviy shifrlash usullariga qo`yiladigan talablarning uchinchisi?
++ shifrmatn o’zi hajmi bo’yicha boshlang’ich axborotdan ko’payib ketmasligi
+- shifr xatoliklari axborotni to’siqlarga uchrashiga va yo’qolishlariga olib kelmasligi
+- shifrlash va vaqti katta bo’lmasligi
+- Kriptochidamlilik
+
+# Zamonaviy shifrlash usullariga qo`yiladigan talablarning to`rtinchisi?
++ shifr xatoliklari axborotni to’siqlarga uchrashiga va yo’qolishlariga olib kelmasligi
+- shifrlash va vaqti katta bo’lmasligi
+- Kriptochidamlilik
+- Kalit maxfiyligi
+
+# Zamonaviy shifrlash usullariga qo`yiladigan talablarning beshinchisi?
++ shifrlash va vaqti katta bo’lmasligi
+- Kriptochidamlilik
+- Kalit maxfiyligi
+- shifr xatoliklari axborotni to’siqlarga uchrashiga va yo’qolishlariga olib kelmasligi
+
+# Kriptotizimning klassik sxemasida kalit nechta bo`ladi?
++ 1
+- 2
+- 0
+- 3
+
+# Kriptotizimning klassik sxemasida “M” harfi nimani bildiradi?
++ Ochiq matn
+- Yopiq matn
+- Kalit
+- Shifrlash algoritmi
+
+# Kriptotizimning klassik sxemasida “C” harfi nimani bildiradi?
++ Yopiq matn
+- Ochiq matn
+- Kalit
+- Shifrlash algoritmi
+
+# Kriptotizimning klassik sxemasida “Ek” nimani bildiradi?
++ Shifrlash algoritmi
+- Yopiq matn
+- Ochiq matn
+- Kalit
+
+# Kriptotizimning klassik sxemasida “Dk” nimani bildiradi?
++ Ochish (shifrni) algoritmi
+- Yopiq matn
+- Ochiq matn
+- Kalit
+
+# Kriptografik tizimlar nechta katta sinfga bo`linadi?
++ 2
+- 3
+- 4
+- 5
+
+# Kriptografik tizimlarning birinchi sinfi qanday nomalanadi?
++ Simmetrik
+- Assimetrik
+- To`g`ri
+- Proportsional
+
+# Kriptografik tizimlarning ikkinchi sinfi qanday nomalanadi?
++ Assimetrik
+- Simmetrik
+- To`g`ri
+- Proportsional
+
+# Simmetrik sinfli kriptotizimlarda odatda nechta kalit ishlatiladi?
++ 1
+- 2
+- 3
+- Ishlatilmaydi
+
+# Assimmetrik sinfli kriptotizimlarda odatda nechta kalit ishlatiladi?
++ 2
+- 3
+- 1
+- Ishlatilmaydi
+
+# Kriptoanaliz nima?
++ kalitni bilmasdan shifrlangan xabarni birlamchi holatga keltirish omadli analiz birlamchi matn yoki kalitni ochishi
+- boshlang’ich axborot ustida oldingi holatga qaytish imkoniyati saqlangan holda matematik, mantiqiy va boshqa o’zgartirishlarni o’tkazishdir
+- ular me`yoriy ishlash jarayoniga tasodifiy yoki oldindan mo’ljallangan aralashishdan hamda ularning tashkil etuvchilarini o’g’irlashga, o’zgartirishga yoki buzishga bo’lgan intilishlardan himoya qilinishi
+- tizimning u yoki bu bog’liqligini qidirish va ishlatish ma`nosini bildiradigan, yomon niyatli odam tomonidan bajariladigan harakatdir
+
+# Kriptoanalizning fundamental qoidasini birinchi qaysi olim keltirgan?
++ A. Kerxoffom
+- Xoffman
+- Tsezar
+- Rayndal
+
+# Kriptoanalitik hujumlarning nechata asosiy turi mavjud?
++ 4
+- 3
+- 2
+- Mavjud emas
+
+# Kriptografiyada kalit nima?
++ berilganlarni kriptografik o’zgartirishlar algoritmining parametri bo’lib, maxfiy holatda bo’ladi va shu algoritm uchun bir variantni tanlash imkonini beradi
+- kalitni bilmasdan shifrlangan xabarni birlamchi holatga keltirish omadli analiz birlamchi matn yoki kalitni ochishi
+- boshlang’ich axborot ustida oldingi holatga qaytish imkoniyati saqlangan holda matematik, mantiqiy va boshqa o’zgartirishlarni o’tkazishdir
+- ular me`yoriy ishlash jarayoniga tasodifiy yoki oldindan mo’ljallangan aralashishdan hamda ularning tashkil etuvchilarini o’g’irlashga, o’zgartirishga yoki buzishga bo’lgan intilishlardan himoya qilinishi
+
+# Shifrlash talablariga javob beruchi shifrlash algoritmlari guruhining birinchi turi qanday nomlanadi?
++ o’rin almashtirish
+- Joylashtirish
+- Gammalashtirish
+- shifrlanishi kerak bo’lgan ma`lumotlarni analitik o’zgartirish
+
+# Shifrlash talablariga javob beruchi shifrlash algoritmlari guruhining ikkinchi turi qanday nomlanadi?
++ Joylashtirish
+- o’rin almashtirish
+- Gammalashtirish
+- shifrlanishi kerak bo’lgan ma`lumotlarni analitik o’zgartirish
+
+# Shifrlash talablariga javob beruchi shifrlash algoritmlari guruhining uchinchi turi qanday nomlanadi?
++ Gammalashtirish
+- o’rin almashtirish
+- Joylashtirish
+- shifrlanishi kerak bo’lgan ma`lumotlarni analitik o’zgartirish
+
+# Shifrlash talablariga javob beruchi shifrlash algoritmlari guruhining to`rtinchi turi qanday nomlanadi?
++ shifrlanishi kerak bo’lgan ma`lumotlarni analitik o’zgartirish
+- Gammalashtirish
+- o’rin almashtirish
+- Joylashtirish
+
+# O’rin almashtirish shifrlash guruhi ta`rifi?
++ shifrlanadigan matn ramzlari shu matnning biron-bir qismi chegarasida o’zaro joylashuvlarni bajarishga asoslangan
+- shifrlanadigan matn ramzlari oldindan kelishilgan sxema bo’yicha matn ramzlarini alifbo ramzlarini o’zgartirishga asoslangan
+- shifrlanadigan matn ramzlari shifr gammasi deb nomlanuvchi ba`zi taxminiy simvollar ketma-ketligi bilan qo’shiladi
+- shifrlanadigan matn biron-bir analitik qoida (formula) bo’yicha o’zgartirishga asoslanadi
+
+# Joylashtirish shifrlash guruhi tarifi?
++ shifrlanadigan matn ramzlari oldindan kelishilgan sxema bo’yicha matn ramzlarini alifbo ramzlarini o’zgartirishga asoslangan
+- shifrlanadigan matn ramzlari shu matnning biron-bir qismi chegarasida o’zaro joylashuvlarni bajarishga asoslangan
+- shifrlanadigan matn ramzlari shifr gammasi deb nomlanuvchi ba`zi taxminiy simvollar ketma-ketligi bilan qo’shiladi
+- shifrlanadigan matn biron-bir analitik qoida (formula) bo’yicha o’zgartirishga asoslanadi
+
+# Gammalashtirish shifrlash guruhi tarifi?
++ shifrlanadigan matn ramzlari shifr gammasi deb nomlanuvchi ba`zi taxminiy simvollar ketma-ketligi bilan qo’shiladi
+- shifrlanadigan matn ramzlari shu matnning biron-bir qismi chegarasida o’zaro joylashuvlarni bajarishga asoslangan
+- shifrlanadigan matn ramzlari oldindan kelishilgan sxema bo’yicha matn ramzlarini alifbo ramzlarini o’zgartirishga asoslangan
+- shifrlanadigan matn biron-bir analitik qoida (formula) bo’yicha o’zgartirishga asoslanadi
+
+# Analitik o’zgartirish shifrlash guruhi tarifi?
++ shifrlanadigan matn biron-bir analitik qoida (formula) bo’yicha o’zgartirishga asoslanadi
+- shifrlanadigan matn ramzlari shifr gammasi deb nomlanuvchi ba`zi taxminiy simvollar ketma-ketligi bilan qo’shiladi
+- shifrlanadigan matn ramzlari shu matnning biron-bir qismi chegarasida o’zaro joylashuvlarni bajarishga asoslangan
+- shifrlanadigan matn ramzlari oldindan kelishilgan sxema bo’yicha matn ramzlarini alifbo ramzlarini o’zgartirishga asoslangan
+
+# DES shifrlash algoritmida shifrlash bloki hajmi necha bit?
++ 64
+- 28
+- 256
+- 32
+
+# DES shifrlash algoritmida real ishlatiladigan kalit hajmi necha bit?
++ 56
+- 28
+- 256
+- 32
+
+# DES shifrlash algoritmida raundlar soni nechta?
++ 16
+- 6
+- 32
+- 8
+
+# DES shifrlash algoritmi asosida nima yotadi?
++ Feystel to`ri
+- Joylashtirish-o`rin almashtirish
+- Elliptik egri chiziqlar
+- Tub sonlar
+
+# GOST 28147-89 shifrlash algoritmida shifrlash bloki hajmi necha bit?
++ 64
+- 28
+- 256
+- 32
+
+# GOST 28147-89 shifrlash algoritmida kalit hajmi necha bit?
++ 256
+- 32
+- 64
+- 28
+
+# GOST 28147-89 shifrlash algoritmida raundlar soni nechta?
++ 32
+- 48
+- 8
+- 6
+
+# GOST 28147-89 shifrlash algoritmi asosida nima yotadi?
++ Feystel to`ri
+- Joylashtirish-o`rin almashtirish
+- Elliptic egri chiziqlar
+- Tub sonlar
+
+# Kompyuter virusi nima?
++ boshqa dasturlarga o’zini kodini kiritadigan, ularni o’zgartiradigan yoki o’chirib tashlaydilash maqsadida yaratilgan dastur
+- shifrlanadigan matn biron-bir analitik qoida (formula) bo’yicha o’zgartirishga asoslanadi
+- shifrlanadigan matn ramzlari shifr gammasi deb nomlanuvchi ba`zi taxminiy simvollar ketma-ketligi bilan qo’shiladi
+- shifrlanadigan matn ramzlari shu matnning biron-bir qismi chegarasida o’zaro joylashuvlarni bajarishga asoslangan
+
+# Virusning kengayish bosqichlari nechta bosqichdan iborat?
++ 3
+- 4
+- 5
+- 2
+
+# Virusning kengayish bosqichining birinchi bosqichi qanday nomlanadi?
++ Yashirin bosqich
+- Lava ko`rinishida ko`payishi
+- Faol harakat
+- Haraktsiz
+
+# Virusning kengayish bosqichining ikkinchi bosqichi qanday nomlanadi?
++ Lava ko`rinishida ko`payishi
+- Yashirin bosqich
+- Faol harakat
+- Haraktsiz
+
+# Virusning kengayish bosqichining uchunchi bosqichi qanday nomlanadi?
++ Faol harakat
+- Yashirin bosqich
+- Lava ko`rinishida ko`payishi
+- Haraktsiz
+
+# Viruslarning klassifikatsiyasi necha guruhga bo`linadi?
++ 4
+- 3
+- 2
+- 5
+
+# Viruslar klassifikatsiyasining birinchi guruhi nomi?
++ yashash muhiti bo’yicha
+- yashash muhitini kasallashi bo’yicha
+- ta`sir ko’rsatish darajasi bo’yicha
+- algoritmining tuzilishi bo’yicha
+
+# Viruslar klassifikatsiyasining ikkinchi guruhi nomi?
++ yashash muhitini kasallashi bo’yicha
+- yashash muhiti bo’yicha
+- ta`sir ko’rsatish darajasi bo’yicha
+- algoritmining tuzilishi bo’yicha
+
+# Viruslar klassifikatsiyasining uchunchi guruhi nomi?
++ ta`sir ko’rsatish darajasi bo’yicha
+- yashash muhiti bo’yicha
+- yashash muhitini kasallashi bo’yicha
+- algoritmining tuzilishi bo’yicha
+
+# Viruslar klassifikatsiyasining to`rtinchi guruhi nomi?
++ algoritmining tuzilishi bo’yicha
+- yashash muhiti bo’yicha
+- yashash muhitini kasallashi bo’yicha
+- ta`sir ko’rsatish darajasi bo’yicha
+
+# Antivirus dasturlarining turlari nechta?
++ 5
+- 4
+- 3
+- 2
+
+# Antivirus dasturlarining birinchi turi qanday nomlanadi?
++ detektor-dasturlar
+- shifokor-dasturlar
+- Revizor-dasturlar
+- Filtr-dasturlar
+
+# Antivirus dasturlarining ikkinchi turi qanday nomlanadi?
++ shifokor-dasturlar
+- detektor-dasturlar
+- Revizor-dasturlar
+- Filtr-dasturlar
+
+# Antivirus dasturlarining uchinchi turi qanday nomlanadi?
++ Revizor-dasturlar
+- detektor-dasturlar
+- shifokor-dasturlar
+- Filtr-dasturlar
+
+# Antivirus dasturlarining to`rtinchi turi qanday nomlanadi?
++ Filtr-dasturlar
+- detektor-dasturlar
+- shifokor-dasturlar
+- Revizor-dasturlar
+
+# Antivirus dasturlarining beshinchi turi qanday nomlanadi?
++ Immunizator-dasturlar
+- detektor-dasturlar
+- shifokor-dasturlar
+- Revizor-dasturlar
+
+# Zamonaviy braundmauerlarda mavjud funktsiyalarning birinchi turi?
++ Keshlash (cashing)
+- Manzillarni translatsilash (address translation)
+- Tarkibni filtrlash (content restriction)
+- Qaytamanzillash (address vectoring)
+
+# Zamonaviy braundmauerlarda mavjud funktsiyalarning ikkinchi turi?
++ Manzillarni translatsilash (address translation)
+- Keshlash (cashing)
+- Tarkibni filtrlash (content restriction)
+- Qaytamanzillash (address vectoring)
+
+# Zamonaviy braundmauerlarda mavjud funktsiyalarning uchinchi turi?
++ Tarkibni filtrlash (content restriction)
+- Manzillarni translatsilash (address translation)
+- Keshlash (cashing)
+- Qaytamanzillash (address vectoring)
+
+# Zamonaviy braundmauerlarda mavjud funktsiyalarning to`rtinchi turi?
++ Qaytamanzillash (address vectoring)
+- Manzillarni translatsilash (address translation)
+- Keshlash (cashing)
+- Tarkibni filtrlash (content restriction)
+
+# Braundmauerning xavfsizlik siyosati odatda necha usuldan iborat?
++ 2
+- 3
+- 4
+- Mavjud emas
+
+# Braundmauerning xavfsizlik siyosati birinchi usuli?
++ Maxsus man etilmagan harakatlardan boshqa barcha harakatlarga ruxsat berish
+- Maxsus ruxsat etilgan harakatlardan boshqa barcha harakatlarni ta`qiqlash
+- Tarkibni filtrlash (content restriction)
+- Manzillarni translatsilash (address translation)
+
+# Braundmauerning xavfsizlik siyosati ikkinchi usuli?
++ Maxsus ruxsat etilgan harakatlardan boshqa barcha harakatlarni ta`qiqlash
+- Maxsus man etilmagan harakatlardan boshqa barcha harakatlarga ruxsat berish
+- Tarkibni filtrlash (content restriction)
+- Manzillarni translatsilash (address translation)
+
+# Dasturlar shlyuzi (application gateway) yoki proxy-server (application proxy) nima?
++ dastur bo`lib, braundmauerda ishlaydi va ko`rsatilgan tipdagi dastur trafigini ushlab oladi
+- Maxsus ruxsat etilgan harakatlardan boshqa barcha harakatlarni ta`qiqlash
+- Maxsus man etilmagan harakatlardan boshqa barcha harakatlarga ruxsat berish
+- boshqa dasturlarga o’zini kodini kiritadigan, ularni o’zgartiradigan yoki o’chirib tashlaydilash maqsadida yaratilgan dastur
+
+# Xakerlik hujumi nima?
++ mahalliy yoki uzoqlashgan hisoblash tizimlari nazoratini qo’lga olish yoki ularni ishdan chiqarish yoki xizmat ko’rsata olmaslik holatiga keltirish uchun xavfsizlik tizimiga hujum
+- boshqa dasturlarga o’zini kodini kiritadigan, ularni o’zgartiradigan yoki o’chirib tashlaydilash maqsadida yaratilgan dastur
+- dastur bo`lib, braundmauerda ishlaydi va ko`rsatilgan tipdagi dastur trafigini ushlab oladi
+- Tizimni himoya qilishga qaratilgan haraktlar to`plami
+
+# Internet tizimida hujumlarning birinchi turi?
++ Mailbombing
+- Buferni to’lib toshishi
+- Viruslar, troyan dasturlar, pochta cherv(chuvalchanglari), Rootkit-lar va boshqa maxsus dasturlar
+- Man-in-the-Middle
+
+# Internet tizimida hujumlarning ikkinchi turi?
++ Buferni to’lib toshishi
+- Mailbombing
+- Viruslar, troyan dasturlar, pochta cherv(chuvalchanglari), Rootkit-lar va boshqa maxsus dasturlar
+- Man-in-the-Middle
+
+# Internet tizimida hujumlarning uchinchi turi?
++ Viruslar, troyan dasturlar, pochta cherv(chuvalchanglari), Rootkit-lar va boshqa maxsus dasturlar
+- Mailbombing
+- Buferni to’lib toshishi
+- Man-in-the-Middle
+
+# Internet tizimida hujumlarning to`rtinchi turi?
++ Man-in-the-Middle
+- Mailbombing
+- Buferni to’lib toshishi
+- Viruslar, troyan dasturlar, pochta cherv(chuvalchanglari), Rootkit-lar va boshqa maxsus dasturlar
+
+# Internet tizimida hujumlarning beshinchi turi?
++ Peketlar sniffing
+- Man-in-the-Middle
+- Mailbombing
+- Buferni to’lib toshishi
+
+# Internet tizimida hujumlarning oltinchi turi?
++ In`ektsiya
+- Peketlar sniffing
+- Man-in-the-Middle
+- Mailbombing
+
+# Internet tizimida hujumlarning yettinchi turi?
++ DOS va DDOS
+- In`ektsiya
+- Peketlar sniffing
+- Man-in-the-Middle
+
+# Elektron pochta bilan bog`liq tahdidlarning birinchi turi?
++ Jo`natuvchilarning soxta manzillari
+- Xatni ushlab olish
+- Pochta bombalari
+- Tahdid xatlari
+
+# Elektron pochta bilan bog`liq tahdidlarning ikkinchi turi?
++ Xatni ushlab olish
+- Jo`natuvchilarning soxta manzillari
+- Pochta bombalari
+- Tahdid xatlari
+
+# Elektron pochta bilan bog`liq tahdidlarning uchinchi turi?
++ Pochta bombalari
+- Jo`natuvchilarning soxta manzillari
+- Xatni ushlab olish
+- Tahdid xatlari
+
+# Elektron pochta bilan bog`liq tahdidlarning to`rtinchi turi?
++ Tahdid xatlari
+- Jo`natuvchilarning soxta manzillari
+- Xatni ushlab olish
+- Pochta bombalari
+
+# Elektron to`lov tizimlarida tahdidlarning birinchi turi?
++ Soxta smslar
+- SMS-parolni olish
+- To`lov tizimlarining “Rasmiy” xatlari
+- Lotoreyada soxta yutuqlar
+
+# Elektron to`lov tizimlarida tahdidlarning ikkinchi turi?
++ SMS-parolni olish
+- Nigeriyalik xati
+- To`lov tizimlarining “Rasmiy” xatlari
+- Lotoreyada soxta yutuqlar
+
+# Elektron to`lov tizimlarida tahdidlarning uchinchi turi?
++ To`lov tizimlarining “Rasmiy” xatlari
+- Nigeriyalik xati
+- Soxta internet-do`konlar
+- Lotoreyada soxta yutuqlar
+
+# Elektron to`lov tizimlarida tahdidlarning to`rtinchi turi?
++ Lotoreyada soxta yutuqlar
+- Nigeriyalik xati
+- Soxta internet-do`konlar
+- Omadli sotuvlar
+
+# Elektron to`lov tizimlarida tahdidlarning beshinchi turi?
++ Nigeriyalik xati
+- Soxta kvitantsiyalar
+- Soxta internet-do`konlar
+- Omadli sotuvlar
+
+# Elektron to`lov tizimlarida tahdidlarning oltinchi turi?
++ Soxta internet-do`konlar
+- Soxta kvitantsiyalar
+- Soxta smslar
+- Omadli sotuvlar
+
+# Elektron to`lov tizimlarida tahdidlarning yettinchi turi?
++ Omadli sotuvlar
+- Soxta kvitantsiyalar
+- Soxta smslar
+- SMS-parolni olish
+
+# Elektron to`lov tizimlarida tahdidlarning sakkizinchi turi?
++ Soxta kvitantsiyalar
+- Obuna
+- Soxta smslar
+- SMS-parolni olish
+
+# Elektron to`lov tizimlarida tahdidlarning to`qqizinchi turi?
++ Obuna
+- To`lov tizimlarining “Rasmiy” xatlari
+- Soxta smslar
+- SMS-parolni olish
+
+# Tsezar shifrlash usuli qaysi shifrlash guruhiga kiradi?
++ o’rin almashtirish
+- Joylashtirish
+- Gammalashtirish
+- shifrlanishi kerak bo’lgan ma`lumotlarni analitik o’zgartirish
+
+# Vinjer shifrlash usuli qaysi shifrlash guruhiga kiradi?
++ Joylashtirish
+- o’rin almashtirish
+- Gammalashtirish
+- shifrlanishi kerak bo’lgan ma`lumotlarni analitik o’zgartirish
+
+# O’rnatilgan qoidalarni va cheklanishlarni buzib, rejalashtirilmagan holda axborotlar bilan tanishish, ularni qayta ishlash, nusxalash, turli viruslarni qo’llash yoki o’chirish qanday nomlanadi?
++ Kompyuterdagi axborotga ruxsat etilmagan murojaat
+- Tarmoq virusini qo’llash
+- Xakerlik
+- Krekerlik
+
+# Quyidagilardan qaysi biri standart himoya vositalariga kirmaydi?
++ Ruxsat etilmagan murojaat;
+- parolli kirishni qo’llovchi va ruxsat etilmagan foydalanuvchi imkoniyatlarini chegaralovchi hisoblash zahiralarini himoyalash vositalari;
+- Axborot mazmuniga bog’liq bo’lmagan shifrlash usullarini qo’llash;
+- Sotiladigan dasturiy vositalarni nusxalashdan himoya vositalari;
+
+# AWARD turkumidagi BIOSlar uchun umumiy parolni toping
++ AWARD_SW
+- AWARD
+- AW_SW
+- ASW
+
+# Ma`lumotlarni shifrlash kodlash yoki boshqa biror qayta ishlash natijasida o’zgartirish qanday nomlanadi?
++ Kriptografiya
+- Kalit
+- Kriptoanaliz
+- Elektron pochta
+
+# Qaysi usul axborotlarni himoyalashning umumiy kriptografik usullariga ta`lluqli emas?
++ teskari yozish
+- o’rniga qo’yish
+- o’rin almashtirish
+- analitik o’tkazish
+
+# Parolli kirishni qo’llovchi vositalar ishlash printsipini ko’rsating.
++ Kiritilgan parolni tekshirib, to’g’ri parol kiritilganda murojaatga ruxsat berish
+- Kiritilgan parolni tekshirib, noto’g’ri parol kiritilganda murojaatga ruxsat berish
+- Kiritilgan parolni tekshirib, to’g’ri parol kiritilganda parolni qayta so’rash
+- Kiritilgan parolni tekshirib, to’g’ri parol kiritilganda parolni o’zgartirishga imkoniyat berib, har safar yangi parol so’rash
+
+# Shaxsiy kompyuterni ishlatish uchun (CMOS) parol qanday o’rnatiladi?
++ CMOS Setup – Password Checking Option
+- CMOS Setup – Security Option
+- CMOS Setup – Chipset Features Setup
+- CMOS Setup – Power Management Setup
+
+# Kalit iborasini izohlang.
++ Shifrlangan ma`lumotlarni dastlabki ko’rinishga o’tkazish
+- Berilgan ma`lumotlarni shifrlash orqali boshqa ko’rinishga o`tkazish
+- Deshifrator dasturi
+- Parol
+
+# To’liq o’chirilmagan fayl qanday zarar yetkazishi mumkin?
++ Ma`lumotlar tarqalish ehtimolligini oshiradi
+- Disk sohasini egallab turadi
+- Viruslar paydo bo’lishiga olib keladi
+- Operatsion tizim ish faoliyatiga xalaqit beradi
+
+# Kriptografik himoyaga viruslar qanday ta`sir qiladi?
++ Almashtirish algoritmini buzadi
+- Zarar yetkazmaydi
+- Faylni o’chiradi
+- Ma`lumotlarni qayta shifrlaydi
+
+# Virtual xotiradan nima maqsadda foydalanish mumkin?
++ Hajmi tezkor xotiradan katta bo’lgan dasturlarni yuklash uchun
+- Katta o’yinlarni ishga tushirish uchun
+- Kinofilmlar va klipplarni ko’rish uchun
+- Tarmoqda ishlash uchun
+
+# Fizik xavfsizlik vositasini buzish qanday amalga oshiriladi?
++ Ma`lumot tashuvchini o’g’irlash orqali
+- Kuch ishlatish orqali
+- Parolni kiritish orqali
+- Maxsus dasturlar yordamida
+
+# Arxivator dasturlrini ko’rsating.
++ Win Rar
+- Dr Web
+- Anti AON
+- Flash
+
+# Kompyuter virusi nima?
++ Kompyuter normal ishlashiga xalaqit beruvchi dastur
+- Fayllarni o’chiruvchi dastur
+- Fayllarni hajmini oshiruvchi vosita
+- Kompyuterni fizik buzuvchi dastur yoki vosita
+
+# Viruslar imkoniyati bo’yicha necha turga bo’linadi?
++ 4
+- 5
+- 2
+- 1
+
+# Antivirus dasturlarining ish printsipi nimadan iborat?
++ Hamma fayllarni tekshirib, zararlanganlari haqida ma`lumot chiqarish va davolash
+- Hamma fayllarni tekshirib, zararlanganlari haqida ma`lumot chiqarish
+- Hamma fayllarni tekshirish
+- Zararlangan fayllarni tekshirish
+
+# Antivirus dasturlari necha turga bo’linadi?
++ 5
+- 4
+- 1
+- 2
+
+# Kompyuterga virus tushishini oldini olish uchun nimalar qilish kerak?
++ Antivirus o’rnatib, olingan har bir yangi ma`lumotlarni tekshirish
+- Yuklash vaqtida tekshirish
+- Zararlangan fayllarni o’chirib tashlash
+- Tizimni qayta o’rnatish
+
+# Rezident viruslar va ularga qarshi kurash usullari.
++ Yuklash vaqtida tekshirish
+- Antivirus o’rnatish
+- Zararlangan fayllarni o’chirib tashlash
+- Tizimni qayta o’rnatish
+
+# Zahirali nusxa (Резервная копия)ning foydasi?
++ Ma`lumotlar yo’qolishini oldini oladi
+- Virusdan asraydi
+- Diskni formatlashdan asraydi
+- Ma`lumotlarni tarqalishini oldini oladi
+
+# Disk sohasi zararlangandagi dastlabki belgilar?
++ Operatsion tizim yuklanish vaqtida va fayllar bilan ishlaganda muammolar paydo bo’lishi
+- Diskning ustki sohasida chiziqlar paydo bo’lishi
+- Kompyuter yonmasligi
+- Printer ishlamasligi
+
+# Shaxsiy kompyuterni himoyalashning maxsus vositalari?
++ Parol
+- Operatsion tizim
+- Qobiq dastur
+- Office dasturlari
+
+# Kompyuterni apparat kamchiliklaridan himoyalash.
++ To’g’ri ishlaydigan qurilma o’rnatish
+- Ma`lumotlarning zahirali nusxasini hosil qilish
+- Shu qurilma ishini ta`minlovchi dasturlarni faollashtirish
+- Antivirus dasturlarni o’rnatish
+
+# Kompyuterni dasturiy kamchiliklaridan himoyalash.
++ Dasturlarning to’g’riligini kafolatlovchi dasturchilar mahsulotidan foydalanish
+- To’g’ri ishlaydigan qurilma o’rnatish
+- Ma`lumotlarning zahirali nusxasini hosil qilish
+- Antivirus dasturlarni o’rnatish
+
+# Kompyuter konfiguratsiyasini sozlash faylini belgilang.
++ Config.sys
+- Autoexec.bat
+- Command.com
+- Win.ini
+
+# Yuklash vaqtida tekshirishning kamchiliklari.
++ Kompyuter ish tezligini kamayishi
+- Operatsion tizimning yuklanmasligi
+- Ba`zi dasturlarning ish faoliyati buzilishi
+- Kamchilikka ega emas
+
+# Yuklash vaqtida tekshirishning ustunligi
++ Viruslarning tarqalishining oldi olinishi
+- Kompyuter ish tezligini kamayishi
+- Operatsion tizimning yuklanmasligi
+- Ba`zi dasturlarning ish faoliyati buzilishi
+
+# Kompyuterga bir vaqtning o’zida nechtagacha qattiq disk ulash mumkin?
++ 4
+- 1
+- 2
+- 3
+
+# Disk tarkibidagi ma`lumotlarni yashiruvchi dasturni ko’rsating.
++ Disk Hide
+- PGP
+- DES
+- Dr Web
+
+# Parolli himoyaga baho bering.
++ Eng bo’sh himoya vositasi
+- To’liq xavfsizlikni ta`minlaydi
+- Himoya ta`minoti qoniqarli
+- Hamma ma`lumotlar himoyasida foydalanish mumkin
+
+# Antivirus dasturini ko’rsating.
++ Dr Web
+- Disk Hide
+- PGP
+- DES
+
+# Ma`lumotlarni arxivatorlar yordamida himoyalashga baho bering.
++ Eng bo’sh himoya vositasi
+- To’liq xavfsizlikni ta`minlaydi
+- Himoya ta`minoti qoniqarli
+- Hamma ma`lumotlar himoyasida foydalanish mumkin
+
+# Magnit disklar defektlari sabablariga quyidagilar kiradi?
++ Mantiqiy va fizik
+- Mantiqiy
+- Fizik
+- Mantiqiy va dasturiy
+
+# Arxivlashda fayllarni siqish darajasi qo’proq nimaga bog’liq?
++ formatiga
+- hajmiga
+- kengaytmasiga
+- sanasiga
+
+# Eng mashhur arxivatorlar?
++ ARJ, LHA, RAR va PKZIP
+- ARJ, LHA, RAR
+- ARJ, RAR
+- RAR
+
+# Arxivatorlarni ishlash tamoyili?
++ faylda “ortiqcha” informatsiyani topish va minimal hajmni olish
+- qayta ochishga yordam berish
+- uzluksiz nusxalash
+- Nusxalash
+
+# Ma`lumotlarni siqishning yanada kengaygan usuli ixtiyoriy arxivatorlar tomonidan amaliyotda u yoki bu ko’rinishi?
++ optimal prefeksli kod va xususan Xoffman algoritmi
+- faylda “ortiqcha” informatsiyani topish va minimal hajmni olish
+- uzluksiz nusxalash
+- Nusxalash
+
+# Mashhur ARJ, PAK, LHARC, PKZIP arxivatorlari qaysi algoritm asosida ishlaydi?
++ Lempel-Ziv algoritmi
+- optimal prefeksli kod va xususan Xoffman algoritmi
+- faylda “ortiqcha” informatciyani topish va minimal hajmni olish
+- Nusxalash
+
+# “Kasallagan” deb nomlanuvchi dastur ish boshlaganda qoida bo’yicha boshqaruvga birinchi….?
++ virus ega bo’ladi
+- buyruq interpretatori
+- operatsion tizim
+- Antivirus
+
+# Yashash muhitiga ko’ra viruslar necha turga bo’linadi?
++ 4
+- 3
+- 2
+- 5
+
+# Kasallanishi bo’yicha viruslar necha turga bo’linadi?
++ 2
+- 3
+- 4
+- 5
+
+# Imkoniyati bo’yicha viruslar necha turga bo’linadi?
++ 4
+- 2
+- 3
+- 5
+
+# Viruslarga qarshi kurashish uchun maxsus antivirus necha turga ajraladi?
++ 5
+- 2
+- 3
+- 4
+
+# Ishi u yoki bu ma`lum bo’lgan virusga tegishli kod hududini qidirishga asoslangan antivirus qaysi turga kiradi?
++ detektor-dasturlar
+- shifokor-dasturlar
+- revizor-dasturlar
+- shifokor-revizor
+
+# Ishi kasallangan dastur yoki disklarni virus tanasini yo’qotish orqali “davolaydi” gan antivirus qaysi turga kiradi?
++ shifokor-dasturlar
+- detektor-dasturlar
+- revizor-dasturlar
+- shifokor-revizor
+
+# Ishi birinchi navbatda dasturlar va tizimli disk hududlar to’g’risida informatsiyani eslab qolish, so’ngra ularning holatlarini oldingisi bilan tekshiradigan antivirus qaysi turga kiradi?
++ revizor-dasturlar
+- detektor-dasturlar
+- shifokor-dasturlar
+- shifokor-revizor
+
+# Fayl va disk tizimli hududlaridagi o’zgarishni aniqlay oladi va kerak bo’lganda katta o’zgarishlar holatida faylni birlamchi holatiga qaytara oladigan antivirus qaysi turga kiradi?
++ shifokor-revizor
+- detektor-dasturlar
+- shifokor-dasturlar
+- revizor-dasturlar
+
+# Kompyuter operativ xotirasiga rezident joylashib, viruslar kengayishi va zarar keltirishi uchun ishlatadigan operatsion tizimga beriladigan barcha murojaatlarni tutib oladi va foydalanuvchiga xabar beradigan antivirus qaysi turga kiradi?
++ filtr-dasturlar
+- detektor-dasturlar
+- shifokor-dasturlar
+- revizor-dasturlar
+
+# Kriptografik tizim teskari dinamik o’zgartirishli bir parametrli oilani bildiruvchi formula?
++ Ek : M -> C
+- Ek : M -> Ct
+- Ek : M -> Ctn
+- Ek : M -> C +- z
+
+# Kriptotizimlarni qaysi ikki sinflari mavjud?
++ Simmetrik va assimmetrik
+- Kalitli va kalitsiz
+- Sinxron va asinxron
+- Boshqariladigan va boshqarilmaydigan
+
+# Simmetrik kriptotizimda nechta kalit ishlatiladi?
++ 1
+- 2
+- 3
+- Kalit ishlatilmaydi
+
+# Assimmetrik kriptotizimda nechta kalit ishlatiladi?
++ 2
+- 1
+- 3
+- Kalit ishlatilmaydi
+
+# Simmetrik kriptotizimlarda yashirin kalitni qabul qiluvchiga va uzatuvchiga kalitlarni tarqatishning qanaqa kanali orqali uzatish kerak?
++ himoyalangan kanal
+- umumiy kanal
+- tashkiliy kanal
+- taxminiy kanal
+
+# Kriptoanalizning fundamental qoidasini nechanchi asrda ishlab chiqilgan?
++ XIX
+- XX
+- XVIII
+- XVII
+
+# Kriptoanalizning fundamental qoidasini birinchi bo’lib kim ishlab chiqgan?
++ A. Kerxoffom
+- Dj. Bull
+- Nyuton
+- Aristotel
+
+# Kriptoanalizning fundamental qoidasi?
++ dushmanga yashirin kalitdan boshqa shifrlash algoritmi ham unga ma`lum
+- dushmanga shifr matn ma`lum
+- dushmanga shifr va ochiq matn ma`lum
+- dushmanga kalit ma`lum
+
+# Kriptoanalitik hujumlarning nechta asosiy turi mavjud?
++ 4
+- 1
+- 2
+- 3
+
+# Kriptoanalitik hujumning birinchi turi qanday nomlanadi?
++ Faqat shifrmatnga ega bo’lgan kriptoanalitik hujum
+- Ochiq matn mavjud holatdagi kriptoanalitik hujum
+- Ochiq matnni tanlash imkoniyati mavjud holatdagi kriptoanalitik hujum
+- Ochiq matnni moslashuvchan tanlovi holatidagi kriptoanalitik hujum
+
+# Kriptoanalitik hujumning ikkinchi turi qanday nomlanadi?
++ Ochiq matn mavjud holatdagi kriptoanalitik hujum
+- Faqat shifrmatnga ega bo’lgan kriptoanalitik hujum
+- Ochiq matnni tanlash imkoniyati mavjud holatdagi kriptoanalitik hujum
+- Ochiq matnni moslashuvchan tanlovi holatidagi kriptoanalitik hujum
+
+# Kriptoanalitik hujumning uchinchi turi qanday nomlanadi?
++ Ochiq matnni tanlash imkoniyati mavjud holatdagi kriptoanalitik hujum
+- Faqat shifrmatnga ega bo’lgan kriptoanalitik hujum
+- Ochiq matn mavjud holatdagi kriptoanalitik hujum
+- Ochiq matnni moslashuvchan tanlovi holatidagi kriptoanalitik hujum
+
+# Kriptoanalitik hujumning to’rtinchi turi qanday nomlanadi?
++ Ochiq matnni moslashuvchan tanlovi holatidagi kriptoanalitik hujum
+- Faqat shifrmatnga ega bo’lgan kriptoanalitik hujum
+- Ochiq matn mavjud holatdagi kriptoanalitik hujum
+- Ochiq matnni tanlash imkoniyati mavjud holatdagi kriptoanalitik hujum
+
+# Kalit nima?
++ berilganlarni kriptografik o’zgartirishlar algoritmining parametri bo’lib, maxfiy holatda bo’ladi va shu algoritm uchun bir variantni tanlash imkonini beradi
+- ochiq matnni sodda tanlovli kriptoanalizda kriptoanalitik ochiq matnni shifrlash uchun bir nechta katta bloklarni tanlashi
+- ishlatilgan K kalitni yoki shu kalit bilan shifrlangan yangi xabarlarrni ochishi mumkin bo’lgan Dk algoritm
+- oddiy holda kriptotizim apparat va dasturiy vositalar to’plamini ifodalaydi
+
+# Shifrning asosiy xarakteristikasi?
++ kriptochidamliligi
+- algoritmi
+- xatoligi
+- tezligi
+
+# Informatsiyani kriptografik himoyasi uchun ishlatiladigan shifrlashga nechta talab quyiladi?
++ 4
+- 2
+- 3
+- 5
+
+# Kriptografik himoya uchun ishlatiladigan shifrlashga quyiladigan birinchi talab?
++ yetarlicha kriptochidamlilik (berilganlarni yopishning ishonchliligi);
+- shifrlash va ochish protseduralarining soddaligi;
+- shifrlashdagi ortiqcha informatsiyaning kamligi;
+- kichik shifrlash xatoliklari va hokazolarga ta`sirchanmasligi;
+
+# Kriptografik himoya uchun ishlatiladigan shifrlashga quyiladigan ikkinchi talab?
++ shifrlash va ochish protseduralarining soddaligi;
+- yetarlicha kriptochidamlilik (berilganlarni yopishning ishonchliligi);
+- shifrlashdagi ortiqcha informatsiyaning kamligi;
+- kichik shifrlash xatoliklari va hokazolarga ta`sirchanmasligi;
+
+# Kriptografik himoya uchun ishlatiladigan shifrlashga quyiladigan uchinchi talab?
++ shifrlashdagi ortiqcha informatsiyaning kamligi;
+- yetarlicha kriptochidamlilik (berilganlarni yopishning ishonchliligi);
+- shifrlash va ochish protseduralarining soddaligi;
+- kichik shifrlash xatoliklari va hokazolarga ta`sirchanmasligi;
+
+# Kriptografik himoya uchun ishlatiladigan shifrlashga quyiladigan to’rtinchi talab?
++ kichik shifrlash xatoliklari va hoqazolarga ta`sirchanmasligi;
+- yetarlicha kriptochidamlilik (berilganlarni yopishning ishonchliligi);
+- shifrlash va ochish protceduralarining soddaligi;
+- shifrlashdagi ortiqcha informatsiyaning kamligi;
+
+# Kriptografik himoya uchun ishlatiladigan shifrlashga quyiladigan talablarga qaysi shifrlashlar javob beradi?
++ o’rin almashtirish shifrlari, joylashtirish shifrlari, gammalashtirish shifrlari, shifrlanishi kerak bo’lgan ma`lumotlarni analitik o’zgartirishga asoslangan shifrlar;
+- o’rin almashtirish shifrlari, joylashtirish shifrlari, gammalashtirish shifrlari;
+- joylashtirish shifrlari, gammalashtirish shifrlari, shifrlanishi kerak bo’lgan ma`lumotlarni analitik o’zgartirishga asoslangan shifrlar;
+- o’rin almashtirish shifrlari, gammalashtirish shifrlari, shifrlanishi kerak bo’lgan ma`lumotlarni analitik o’zgartirishga asoslangan shifrlar;
+
+# O’rin almashtirish shifri nimaga asoslangan?
++ shifrlanadigan matn ramzlari shu matnning biron-bir qismi chegarasida o’zaro joylashuvlarni bajarishga asoslangan
+- shifrlanadigan matn ramzlari oldindan kelishilgan sxema bo’yicha matn ramzlari alifbo ramzlarini o’zgartirishga asoslangan
+- shifrlanadigan matn ramzlari shifr gammasi deb nomlanuvchi ba`zi taxminiy simvollar ketma-ketligi bilan qo’shiladi
+- shifrlanadigan matn biron-bir analitik analitik qoida (formula) bo’yicha o’zgartirishga asoslanadi
+
+# Joylashtirish shifri nimaga asoslangan?
++ shifrlanadigan matn ramzlari oldindan kelishilgan sxema bo’yicha matn ramzlari alifbo ramzlarini o’zgartirishga asoslangan
+- shifrlanadigan matn ramzlari shu matnning biron-bir qismi chegarasida o’zaro joylashuvlarni bajarishga asoslangan
+- shifrlanadigan matn ramzlari shifr gammasi deb nomlanuvchi ba`zi taxminiy simvollar ketma-ketligi bilan qo’shiladi
+- shifrlanadigan matn biron-bir analitik analitik qoida (formula) bo’yicha o’zgartirishga asoslanadi
+
+# Gammalashtirish shifri nimaga asoslangan?
++ shifrlanadigan matn ramzlari shifr gammasi deb nomlanuvchi ba`zi taxminiy simvollar ketma-ketligi bilan qo’shiladi
+- shifrlanadigan matn ramzlari oldindan kelishilgan sxema bo’yicha matn ramzlari alifbo ramzlarini o’zgartirishga asoslangan
+- shifrlanadigan matn ramzlari shu matnning biron-bir qismi chegarasida o’zaro joylashuvlarni bajarishga asoslangan
+- shifrlanadigan matn biron-bir analitik analitik qoida (formula) bo’yicha o’zgartirishga asoslanadi
+
+# Analitik o’zgartirish shifri nimaga asoslangan?
++ shifrlanadigan matn biron-bir analitik analitik qoida (formula) bo’yicha o’zgartirishga asoslanadi
+- shifrlanadigan matn ramzlari oldindan kelishilgan sxema bo’yicha matn ramzlari alifbo ramzlarini o’zgartirishga asoslangan
+- shifrlanadigan matn ramzlari shu matnning biron-bir qismi chegarasida o’zaro joylashuvlarni bajarishga asoslangan
+- shifrlanadigan matn ramzlari shifr gammasi deb nomlanuvchi ba`zi taxminiy simvollar ketma-ketligi bilan qo’shiladi
+
+# Shifrlovchi jadvallarda kalit sifatida nimalar ishlatiladi?
++ jadval hajmi, o’rin almashtirishni belgilovchi so’z yoki ibora, jadval strukturasining xususiyati
+- jadval hajmi
+- jadval strukturasining xususiyati
+- o’rin almashtirishni belgilovchi so’z yoki ibora
+
+# Ikkilangan o’rin almashtirish shifriga kalit sifatida nima xizmat qiladi?
++ berilgan jadvalning ustunlar va qatorlar ketma-ket nomerlari
+- jadval hajmi, o’rin almashtirishni belgilovchi so’z yoki ibora, jadval strukturasining xususiyati
+- jadval hajmi
+- o’rin almashtirishni belgilovchi so’z yoki ibora
+
+# Ikkilangan o’rin almashtirish variantlar jadval hajmining kattalashishi bilan tez oshadi. 3 o’lchovli jadval uchun nechta variant to’g’ri keladi?
++ 576
+- 36
+- 844
+- 4400
+
+# Ikkilangan o’rin almashtirish variantlar jadval hajmining kattalashishi bilan tez oshadi. 4 o’lchovli jadval uchun nechta variant to’g’ri keladi?
++ 576
+- 36
+- 844
+- 4400
+
+# Ikkilangan o’rin almashtirish variantlar jadval hajmining kattalashishi bilan tez oshadi. 5 o’lchovli jadval uchun nechta variant to’g’ri keladi?
++ 4400
+- 36
+- 576
+- 844
+
+# Sehrli kvadratlar deb
++ birdan boshlangan natural sonlar bilan to’ldirilgan va har bir ustun, qator va dioganalllar bo’yicha yagona yig’indi qiymatini beruvchi kvadratlarga aytiladi
+- Shifrlanadigan matn ramzlari shifr gammasi deb nomlanuvchi ba`zi taxminiy simvollar ketma-ketligi bilan qo’shiladi
+- berilganlarni kriptografik o’zgartirishlar algoritmining parametri bo’lib maxfiy holatda bo’ladi va shu algoritm uchun bir variantni tanlash imkonini beradi
+
+# Tsezar shifrlash tizimi qachon ishlatilgan?
++ er.av. 50 y.
+- er.av. 250 y.
+- 50 yillarda.
+- XIX asrda.
+
+# Tsezar tizimining eng katta kamchiligi?
++ Kalitning mumkin bo’lgan qiymatlari kam
+- Kalitning murakkabligi
+- Algoritm murakkabligi
+- Shifrlash tezligi
+
+# Tsezar shifrlash tizimining eng mashhur modifikatsiyasi qanday nomlanadi?
++ Afina tizimi
+- Rim tizimi
+- Qohira tizimi
+- Samarqand tizimi
+
+# Shifrning asosiy xarakteristikasi?
++ kriptochidamliligi
+- xatoligi
+- tezligi
+- algoritmi
+
+# Elektron raqamli imzoni yaratishga mo`ljallangan kalit nima deb ataladi?
++ Elektron raqamli imzo yopiq kaliti
+- Elektron raqamli imzo ochiq kaliti
+- Shifrlash vositasi
+- Kodlash vositasi
+
+# Elektron raqamli imzoning haqiqiyligini aniqlash uchun mo`ljallangan va axborot tizimining barcha foydalanuvchilari erkin foydalanishi mumkin bo`lgan kalit nima deb ataladi?
++ Elektron raqamli imzo ochiq kaliti
+- Shifrlash vositalari
+- Elektron raqamli imzo yopiq kaliti
+- Kodlash vositalari
+
+# ‘SPAM’ nima?
++ Reklamalarni so`ralmagan hollarda tarqatilishi.
+- Ahborotlarni so`ralmagan hollarda anonim tarzda tarqatilishi.
+- Axborotni ommaviy tarqalishi.
+- Maqbul bo`lmagan xatlar.
+
+# Foydalanuvchining login va parollari, maxfiy ma’lumotlaridan foydalanish maqsadidagi internet-firibgarlik qanday nomlanadi?
++ Fishing.
+- Xaker hujumi.
+- Virus tarqatish.
+- Axborotlarni ko’rinishini o’zgartirish.
+
+# Elektron hujjatdagi imzo nima deb ataladi?
++ Elektron raqamli imzo
+- Shifrlash imzosi
+- Kriptografik imzo
+- Oddiy imzo
+
+# Axborotlarni o`tkazishda ularni nazorat qiluvchi va fil’trlovchi apparat va dasturiy vositalar majmuasi qanday nomlanadi?
++ Tarmoqlararo ekran
+- Marshrutizator
+- Taqsimlagich
+- Blokirator
+
+# Komp’yuterga zarar yetkazuvchi hamda o`z-o`zidan ko`payish xususiyatiga ega bo`lgan komp’yuter dasturlari qanday nomlanadi?
++ Komp’yuter virusi
+- Tizim xatoligi
+- Drayver
+- Makros
+
+# Braundmauerning xavfsizlik siyosati birinchi usuli?
++ Maxsus man etilmagan harakatlardan boshqa barcha harakatlarga ruxsat berish
+- Maxsus ruxsat etilgan harakatlardan boshqa barcha harakatlarni ta`qiqlash
+- Tarkibni filtrlash (content restriction)
+- Manzillarni translatsilash (address translation)
+
+# Braundmauerning xavfsizlik siyosati ikkinchi usuli?
++ Maxsus ruxsat etilgan harakatlardan boshqa barcha harakatlarni ta`qiqlash
+- Maxsus man etilmagan harakatlardan boshqa barcha harakatlarga ruxsat berish
+- Tarkibni filtrlash (content restriction)
+- Manzillarni translatsilash (address translation)
+
+# Internet tizimida hujumlarning birinchi turi?
++ Mailbombing
+- Buferni to’lib toshishi
+- Viruslar, troyan dasturlar, pochta cherv(chuvalchanglari), Rootkit-lar va boshqa maxsus dasturlar
+- Man-in-the-Middle
+
+# Internet tizimida hujumlarning ikkinchi turi?
++ Buferni to’lib toshishi
+- Mailbombing
+- Viruslar, troyan dasturlar, pochta cherv(chuvalchanglari), Rootkit-lar va boshqa maxsus dasturlar
+- Man-in-the-Middle
+
+# Internet tizimida hujumlarning uchinchi turi?
++ Viruslar, troyan dasturlar, pochta cherv(chuvalchanglari), Rootkit-lar va boshqa maxsus dasturlar
+- Mailbombing
+- Buferni to’lib toshishi
+- Man-in-the-Middle
+
+# Internet tizimida hujumlarning to`rtinchi turi?
++ Man-in-the-Middle
+- Mailbombing
+- Buferni to’lib toshishi
+- Viruslar, troyan dasturlar, pochta cherv(chuvalchanglari), Rootkit-lar va boshqa maxsus dasturlar
+
+# Internet tizimida hujumlarning beshinchi turi?
++ Peketlar sniffing
+- Man-in-the-Middle
+- Mailbombing
+- Buferni to’lib toshishi
+
+# Internet tizimida hujumlarning oltinchi turi?
++ In`ektsiya
+- Peketlar sniffing
+- Man-in-the-Middle
+- Mailbombing
+
+# Internet tizimida hujumlarning yettinchi turi?
++ DOS va DDOS
+- In`ektsiya
+- Peketlar sniffing
+- Man-in-the-Middle
+
+# Elektron pochta bilan bog`liq tahdidlarning birinchi turi?
++ Jo`natuvchilarning soxta manzillari
+- Xatni ushlab olish
+- Pochta bombalari
+- Tahdid xatlari
+
+# Elektron pochta bilan bog`liq tahdidlarning ikkinchi turi?
++ Xatni ushlab olish
+- Jo`natuvchilarning soxta manzillari
+- Pochta bombalari
+- Tahdid xatlari
+
+# Elektron pochta bilan bog`liq tahdidlarning uchinchi turi?
++ Pochta bombalari
+- Jo`natuvchilarning soxta manzillari
+- Xatni ushlab olish
+- Tahdid xatlari
+
+# Elektron pochta bilan bog`liq tahdidlarning to`rtinchi turi?
++ Tahdid xatlari
+- Jo`natuvchilarning soxta manzillari
+- Xatni ushlab olish
+- Pochta bombalari
+
+# Elektron to`lov tizimlarida tahdidlarning birinchi turi?
++ Soxta smslar
+- SMS-parolni olish
+- To`lov tizimlarining “Rasmiy” xatlari
+- Lotoreyada soxta yutuqlar
+
+# Elektron to`lov tizimlarida tahdidlarning ikkinchi turi?
++ SMS-parolni olish
+- Nigeriyalik xati
+- To`lov tizimlarining “Rasmiy” xatlari
+- Lotoreyada soxta yutuqlar
+
+# Elektron to`lov tizimlarida tahdidlarning uchinchi turi?
++ To`lov tizimlarining “Rasmiy” xatlari
+- Nigeriyalik xati
+- Soxta internet-do`konlar
+- Lotoreyada soxta yutuqlar
+
+# Elektron to`lov tizimlarida tahdidlarning to`rtinchi turi?
++ Lotoreyada soxta yutuqlar
+- Nigeriyalik xati
+- Soxta internet-do`konlar
+- Omadli sotuvlar
+
+# Elektron to`lov tizimlarida tahdidlarning beshinchi turi?
++ Nigeriyalik xati
+- Soxta kvitantsiyalar
+- Soxta internet-do`konlar
+- Omadli sotuvlar
+
+# Elektron to`lov tizimlarida tahdidlarning oltinchi turi?
++ Soxta internet-do`konlar
+- Soxta kvitantsiyalar
+- Soxta smslar
+- Omadli sotuvlar
+
+# Elektron to`lov tizimlarida tahdidlarning yettinchi turi?
++ Omadli sotuvlar
+- Soxta kvitantsiyalar
+- Soxta smslar
+- SMS-parolni olish
+
+# Elektron to`lov tizimlarida tahdidlarning sakkizinchi turi?
++ Soxta kvitantsiyalar
+- Obuna
+- Soxta smslar
+- SMS-parolni olish
+
+# Elektron to`lov tizimlarida tahdidlarning to`qqizinchi turi?
++ Obuna
+- To`lov tizimlarining “Rasmiy” xatlari
+- Soxta smslar
+- SMS-parolni olish
+
+# Tsezar shifrlash usuli qaysi shifrlash guruhiga kiradi?
++ o’rin almashtirish
+- Joylashtirish
+- Gammalashtirish
+- shifrlanishi kerak bo’lgan ma`lumotlarni analitik o’zgartirish
+
+# Vinjer shifrlash usuli qaysi shifrlash guruhiga kiradi?
++ Joylashtirish
+- o’rin almashtirish
+- Gammalashtirish
+- shifrlanishi kerak bo’lgan ma`lumotlarni analitik o’zgartirish
+
+# Kriptografik himoya uchun ishlatiladigan shifrlashga quyiladigan birinchi talab?
++ yetarlicha kriptochidamlilik (berilganlarni yopishning ishonchliligi);
+- shifrlash va ochish protseduralarining soddaligi;
+- shifrlashdagi ortiqcha informatsiyaning kamligi;
+- kichik shifrlash xatoliklari va hokazolarga ta`sirchanmasligi;
+
+# Kriptografik himoya uchun ishlatiladigan shifrlashga quyiladigan ikkinchi talab?
++ shifrlash va ochish protseduralarining soddaligi;
+- yetarlicha kriptochidamlilik (berilganlarni yopishning ishonchliligi);
+- shifrlashdagi ortiqcha informatsiyaning kamligi;
+- kichik shifrlash xatoliklari va hokazolarga ta`sirchanmasligi;
+
+# Kriptografik himoya uchun ishlatiladigan shifrlashga quyiladigan uchinchi talab?
++ shifrlashdagi ortiqcha informatsiyaning kamligi;
+- yetarlicha kriptochidamlilik (berilganlarni yopishning ishonchliligi);
+- shifrlash va ochish protseduralarining soddaligi;
+- kichik shifrlash xatoliklari va hokazolarga ta`sirchanmasligi;
+
+# Kriptografik himoya uchun ishlatiladigan shifrlashga quyiladigan to’rtinchi talab?
++ kichik shifrlash xatoliklari va hoqazolarga ta`sirchanmasligi;
+- yetarlicha kriptochidamlilik (berilganlarni yopishning ishonchliligi);
+- shifrlash va ochish protceduralarining soddaligi;
+- shifrlashdagi ortiqcha informatsiyaning kamligi;
+
+# O’rin almashtirish shifri nimaga asoslangan?
++ shifrlanadigan matn ramzlari shu matnning biron-bir qismi chegarasida o’zaro joylashuvlarni bajarishga asoslangan
+- shifrlanadigan matn ramzlari oldindan kelishilgan sxema bo’yicha matn ramzlari alifbo ramzlarini o’zgartirishga asoslangan
+- shifrlanadigan matn ramzlari shifr gammasi deb nomlanuvchi ba`zi taxminiy simvollar ketma-ketligi bilan qo’shiladi
+- shifrlanadigan matn biron-bir analitik analitik qoida (formula) bo’yicha o’zgartirishga asoslanadi
+
+# Joylashtirish shifri nimaga asoslangan?
++ shifrlanadigan matn ramzlari oldindan kelishilgan sxema bo’yicha matn ramzlari alifbo ramzlarini o’zgartirishga asoslangan
+- shifrlanadigan matn ramzlari shu matnning biron-bir qismi chegarasida o’zaro joylashuvlarni bajarishga asoslangan
+- shifrlanadigan matn ramzlari shifr gammasi deb nomlanuvchi ba`zi taxminiy simvollar ketma-ketligi bilan qo’shiladi
+- shifrlanadigan matn biron-bir analitik analitik qoida (formula) bo’yicha o’zgartirishga asoslanadi
+
+# Gammalashtirish shifri nimaga asoslangan?
++ shifrlanadigan matn ramzlari shifr gammasi deb nomlanuvchi ba`zi taxminiy simvollar ketma-ketligi bilan qo’shiladi
+- shifrlanadigan matn ramzlari oldindan kelishilgan sxema bo’yicha matn ramzlari alifbo ramzlarini o’zgartirishga asoslangan
+- shifrlanadigan matn ramzlari shu matnning biron-bir qismi chegarasida o’zaro joylashuvlarni bajarishga asoslangan
+- shifrlanadigan matn biron-bir analitik analitik qoida (formula) bo’yicha o’zgartirishga asoslanadi
+
+# Analitik o’zgartirish shifri nimaga asoslangan?
++ shifrlanadigan matn biron-bir analitik analitik qoida (formula) bo’yicha o’zgartirishga asoslanadi
+- shifrlanadigan matn ramzlari oldindan kelishilgan sxema bo’yicha matn ramzlari alifbo ramzlarini o’zgartirishga asoslangan
+- shifrlanadigan matn ramzlari shu matnning biron-bir qismi chegarasida o’zaro joylashuvlarni bajarishga asoslangan
+- shifrlanadigan matn ramzlari shifr gammasi deb nomlanuvchi ba`zi taxminiy simvollar ketma-ketligi bilan qo’shiladi
+
+# Shifrlovchi jadvallarda kalit sifatida nimalar ishlatiladi?
++ jadval hajmi, o’rin almashtirishni belgilovchi so’z yoki ibora, jadval strukturasining xususiyati
+- jadval hajmi
+- jadval strukturasining xususiyati
+- o’rin almashtirishni belgilovchi so’z yoki ibora
+
+# Ikkilangan o’rin almashtirish shifriga kalit sifatida nima xizmat qiladi?
++ berilgan jadvalning ustunlar va qatorlar ketma-ket nomerlari
+- jadval hajmi, o’rin almashtirishni belgilovchi so’z yoki ibora, jadval strukturasining xususiyati
+- jadval hajmi
+- o’rin almashtirishni belgilovchi so’z yoki ibora
+
+# Ikkilangan o’rin almashtirish variantlar jadval hajmining kattalashishi bilan tez oshadi. 3 o’lchovli jadval uchun nechta variant to’g’ri keladi?
++ 576
+- 36
+- 844
+- 4400
+
+# Ikkilangan o’rin almashtirish variantlar jadval hajmining kattalashishi bilan tez oshadi. 4 o’lchovli jadval uchun nechta variant to’g’ri keladi?
++ 576
+- 36
+- 844
+- 4400
+
+# Ikkilangan o’rin almashtirish variantlar jadval hajmining kattalashishi bilan tez oshadi. 5 o’lchovli jadval uchun nechta variant to’g’ri keladi?
++ 4400
+- 36
+- 576
+- 844
+
+# Elektron raqamli imzoni yaratishga mo`ljallangan kalit nima deb ataladi?
++ Elektron raqamli imzo yopiq kaliti
+- Elektron raqamli imzo ochiq kaliti 
+- Shifrlash vositasi
+- Kodlash vositasi
+
+# Elektron raqamli imzoning haqiqiyligini aniqlash uchun mo`ljallangan va axborot tizimining barcha foydalanuvchilari erkin foydalanishi mumkin bo`lgan kalit nima deb ataladi?
++ Elektron raqamli imzo ochiq kaliti 
+- Shifrlash vositalari
+- Elektron raqamli imzo yopiq kaliti
+- Kodlash vositalari
+
+# ‘SPAM’ nima?
++ Ahborotlarni so`ralmagan hollarda anonim tarzda tarqatilishi.
+- Reklamalarni so`ralmagan hollarda tarqatilishi.
+- Axborotni ommaviy tarqalishi.
+- Maqbul bo`lmagan xatlar.
+
+# Foydalanuvchining login va parollari, maxfiy ma’lumotlaridan foydalanish maqsadidagi internet-firibgarlik qanday nomlanadi?
++ Fishing.
+- Xaker hujumi.
+- Virus tarqatish.
+- Axborotlarni ko’rinishini o’zgartirish.
+
+# Elektron hujjatdagi imzo nima deb ataladi?
++ Elektron raqamli imzo
+- Shifrlash imzosi
+- Kriptografik imzo
+- Oddiy imzo
+
+# Axborotlarni o`tkazishda ularni nazorat qiluvchi va fil’trlovchi apparat va dasturiy vositalar majmuasi qanday nomlanadi? 
++ Tarmoqlararo ekran
+- Marshrutizator
+- Taqsimlagich
+- Blokirator
+
+# Komp’yuterga zarar yetkazuvchi hamda o`z-o`zidan ko`payish xususiyatiga ega bo`lgan komp’yuter dasturlari qanday nomlanadi?
++ Komp’yuter virusi
+- Tizim xatoligi
+- Drayver
+- Makros
+
+# Kompyuter konfiguratsiyasini sozlash faylini belgilang.
++ Config.sys
+- Autoexec.bat
+- Command.com
+- Win.ini
+
+# Magnit disklar defektlari sabablariga quyidagilar kiradi?
++ Mantiqiy va fizik
+- Mantiqiy
+- Fizik
+- Mantiqiy va dasturiy
+
+# Arxivlashda fayllarni siqish darajasi qo’proq nimaga bog’liq?
++ formatiga
+- hajmiga
+- kengaytmasiga
+- sanasiga
+
+# "Kasallagan" deb nomlanuvchi dastur ish boshlaganda qoida bo’yicha boshqaruvga birinchi….?
++ virus ega bo’ladi
+- buyruq interpretatori
+- operatsion tizim
+- Antivirus
+
+# Yashash muhitiga ko’ra viruslar necha turga bo’linadi?
++ 4
+- 3
+- 2
+- 5
+
+# Kasallanishi bo’yicha viruslar necha turga bo’linadi?
++ 3
+- 2
+- 4
+- 5
+
+# Imkoniyati bo’yicha viruslar necha turga bo’linadi?
++ 4
+- 2
+- 3
+- 5
+
+# Zamonaviy braundmauerlarda mavjud funktsiyalarning ikkinchi turi?
++ Manzillarni translatsilash (address translation)
+- Keshlash (cashing)
+- Tarkibni filtrlash (content restriction)
+- Qaytamanzillash (address vectoring)
+
+# Zamonaviy braundmauerlarda mavjud funktsiyalarning uchinchi turi?
++ Tarkibni filtrlash (content restriction)
+- Manzillarni translatsilash (address translation)
+- Keshlash (cashing)
+- Qaytamanzillash (address vectoring)
+
+# Zamonaviy braundmauerlarda mavjud funktsiyalarning to`rtinchi turi?
++ Qaytamanzillash (address vectoring)
+- Manzillarni translatsilash (address translation)
+- Keshlash (cashing)
+- Tarkibni filtrlash (content restriction)
+
+# Braundmauerning xavfsizlik siyosati odatda necha usuldan iborat?
++ 2
+- 3
+- 4
+- Mavjud emas
+
+# Internet tizimida hujumlarning to`rtinchi turi?
++ Man-in-the-Middle
+- Mailbombing
+- Buferni to’lib toshishi
+- Viruslar, troyan dasturlar, pochta cherv(chuvalchanglari), Rootkit-lar va boshqa maxsus dasturlar
+
+# Internet tizimida hujumlarning beshinchi turi?
++ Peketlar sniffing
+- Man-in-the-Middle
+- Mailbombing
+- Buferni to’lib toshishi
+
+# Internet tizimida hujumlarning oltinchi turi?
++ In`ektsiya
+- Peketlar sniffing
+- Man-in-the-Middle
+- Mailbombing
+
+# Internet tizimida hujumlarning yettinchi turi?
++ DOS va DDOS
+- In`ektsiya
+- Peketlar sniffing
+- Man-in-the-Middle
+
+# Elektron pochta bilan bog`liq tahdidlarning birinchi turi?
++ Jo`natuvchilarning soxta manzillari
+- Xatni ushlab olish
+- Pochta bombalari
+- Tahdid xatlari
+
+# Elektron to`lov tizimlarida tahdidlarning birinchi turi?
++ Soxta smslar
+- SMS-parolni olish
+- To`lov tizimlarining “Rasmiy” xatlari
+- Lotoreyada soxta yutuqlar
+
+# Elektron to`lov tizimlarida tahdidlarning to`qqizinchi turi?
++ Obuna
+- To`lov tizimlarining “Rasmiy” xatlari
+- Soxta smslar
+- SMS-parolni olish
+
+# Tsezar shifrlash usuli qaysi shifrlash guruhiga kiradi?
++ o’rin almashtirish
+- Joylashtirish
+- Gammalashtirish
+- shifrlanishi kerak bo’lgan ma`lumotlarni analitik o’zgartirish
+
+# Vinjer shifrlash usuli qaysi shifrlash guruhiga kiradi?
++ Joylashtirish
+- o’rin almashtirish
+- Gammalashtirish
+- shifrlanishi kerak bo’lgan ma`lumotlarni analitik o’zgartirish
+
+# Kriptoanalizning fundamental qoidasini nechanchi asrda ishlab chiqilgan?
++ XIX
+- XX
+- XVIII
+- XVII
+
+# Kriptoanalizning fundamental qoidasi?
++ dushmanga yashirin kalitdan boshqa shifrlash algoritmi ham unga ma`lum
+- dushmanga shifr matn ma`lum
+- dushmanga shifr va ochiq matn ma`lum
+- dushmanga kalit ma`lum
+
+# Kriptoanalitik hujumning birinchi turi qanday nomlanadi?
++ Faqat shifrmatnga ega bo’lgan kriptoanalitik hujum
+- Ochiq matn mavjud holatdagi kriptoanalitik hujum
+- Ochiq matnni tanlash imkoniyati mavjud holatdagi kriptoanalitik hujum
+- Ochiq matnni moslashuvchan tanlovi holatidagi kriptoanalitik hujum
+
+# Kriptoanalitik hujumning ikkinchi turi qanday nomlanadi?
++ Ochiq matn mavjud holatdagi kriptoanalitik hujum
+- Faqat shifrmatnga ega bo’lgan kriptoanalitik hujum
+- Ochiq matnni tanlash imkoniyati mavjud holatdagi kriptoanalitik hujum
+- Ochiq matnni moslashuvchan tanlovi holatidagi kriptoanalitik hujum
+
+# Kriptoanalitik hujumning uchinchi turi qanday nomlanadi?
++ Ochiq matnni tanlash imkoniyati mavjud holatdagi kriptoanalitik hujum
+- Faqat shifrmatnga ega bo’lgan kriptoanalitik hujum
+- Ochiq matn mavjud holatdagi kriptoanalitik hujum
+- Ochiq matnni moslashuvchan tanlovi holatidagi kriptoanalitik hujum
+
+# Kriptoanalitik hujumning to’rtinchi turi qanday nomlanadi?
++ Ochiq matnni moslashuvchan tanlovi holatidagi kriptoanalitik hujum
+- Faqat shifrmatnga ega bo’lgan kriptoanalitik hujum
+- Ochiq matn mavjud holatdagi kriptoanalitik hujum
+- Ochiq matnni tanlash imkoniyati mavjud holatdagi kriptoanalitik hujum
+
+# Informatsiyani kriptografik himoyasi uchun ishlatiladigan shifrlashga nechta talab quyiladi?
++ 4
+- 2
+- 3
+- 5
+
+# Quyidagilardan qaysi biri standart himoya vositalariga kirmaydi?
++ Ruxsat etilmagan murojaat;
+- parolli kirishni qo’llovchi va ruxsat etilmagan foydalanuvchi imkoniyatlarini chegaralovchi hisoblash zahiralarini himoyalash vositalari;
+- Axborot mazmuniga bog’liq bo’lmagan shifrlash usullarini qo’llash;
+- Sotiladigan dasturiy vositalarni nusxalashdan himoya vositalari;
+
+# AWARD turkumidagi BIOSlar uchun umumiy parolni toping
++ AWARD_SW
+- AWARD
+- AW_SW
+- ASW
+
+# Ma`lumotlarni shifrlash kodlash yoki boshqa biror qayta ishlash natijasida o’zgartirish qanday nomlanadi?
++ Kriptografiya
+- Kalit
+- Kriptoanaliz
+- Elektron pochta
+
+# Qaysi usul axborotlarni himoyalashning umumiy kriptografik usullariga ta`lluqli emas?
++ teskari yozish
+- o’rniga qo’yish
+- o’rin almashtirish
+- analitik o’tkazish
+
+# Parolli kirishni qo’llovchi vositalar ishlash printsipini ko’rsating.
++ Kiritilgan parolni tekshirib, to’g’ri parol kiritilganda murojaatga ruxsat berish
+- Kiritilgan parolni tekshirib, noto’g’ri parol kiritilganda murojaatga ruxsat berish
+- Kiritilgan parolni tekshirib, to’g’ri parol kiritilganda parolni qayta so’rash
+- Kiritilgan parolni tekshirib, to’g’ri parol kiritilganda parolni o’zgartirishga imkoniyat berib, har safar yangi parol so’rash
+
+# Shaxsiy kompyuterni ishlatish uchun (CMOS) parol qanday o’rnatiladi?
++ CMOS Setup – Password Checking Option
+- CMOS Setup – Security Option
+- CMOS Setup – Chipset Features Setup
+- CMOS Setup – Power Management Setup
+
+# Kalit iborasini izohlang.
++ Shifrlangan ma`lumotlarni dastlabki ko’rinishga o’tkazish
+- Berilgan ma`lumotlarni shifrlash orqali boshqa ko’rinishga o`tkazish
+- Deshifrator dasturi
+- Parol
+
+# To’liq o’chirilmagan fayl qanday zarar yetkazishi mumkin?
++ Ma`lumotlar tarqalish ehtimolligini oshiradi
+- Disk sohasini egallab turadi
+- Viruslar paydo bo’lishiga olib keladi
+- Operatsion tizim ish faoliyatiga xalaqit beradi
+
+# Fizik xavfsizlik vositasini buzish qanday amalga oshiriladi?
++ Ma`lumot tashuvchini o’g’irlash orqali
+- Kuch ishlatish orqali
+- Parolni kiritish orqali
+- Maxsus dasturlar yordamida
+
+# Arxivator dasturlrini ko’rsating.
++ Win Rar
+- Dr Web
+- Anti AON
+- Flash
+
+# Kompyuterni apparat kamchiliklaridan himoyalash.
++ To’g’ri ishlaydigan qurilma o’rnatish
+- Ma`lumotlarning zahirali nusxasini hosil qilish
+- Shu qurilma ishini ta`minlovchi dasturlarni faollashtirish
+- Antivirus dasturlarni o’rnatish
+
+# Kompyuter konfiguratsiyasini sozlash faylini belgilang.
++ Config.sys
+- Autoexec.bat
+- Command.com
+- Win.ini
+
+# Kriptografik himoya uchun ishlatiladigan shifrlashga quyiladigan birinchi talab?
++ yetarlicha kriptochidamlilik (berilganlarni yopishning ishonchliligi);
+- shifrlash va ochish protseduralarining soddaligi;
+- shifrlashdagi ortiqcha informatsiyaning kamligi;
+- kichik shifrlash xatoliklari va hokazolarga ta`sirchanmasligi;
+
+# O’rin almashtirish shifri nimaga asoslangan?
++ shifrlanadigan matn ramzlari shu matnning biron-bir qismi chegarasida o’zaro joylashuvlarni bajarishga asoslangan
+- shifrlanadigan matn ramzlari oldindan kelishilgan sxema bo’yicha matn ramzlari alifbo ramzlarini o’zgartirishga asoslangan
+- shifrlanadigan matn ramzlari shifr gammasi deb nomlanuvchi ba`zi taxminiy simvollar ketma-ketligi bilan qo’shiladi
+- shifrlanadigan matn biron-bir analitik analitik qoida (formula) bo’yicha o’zgartirishga asoslanadi
+
+# Joylashtirish shifri nimaga asoslangan?
++ shifrlanadigan matn ramzlari oldindan kelishilgan sxema bo’yicha matn ramzlari alifbo ramzlarini o’zgartirishga asoslangan
+- shifrlanadigan matn ramzlari shu matnning biron-bir qismi chegarasida o’zaro joylashuvlarni bajarishga asoslangan
+- shifrlanadigan matn ramzlari shifr gammasi deb nomlanuvchi ba`zi taxminiy simvollar ketma-ketligi bilan qo’shiladi
+- shifrlanadigan matn biron-bir analitik analitik qoida (formula) bo’yicha o’zgartirishga asoslanadi
+
+# Gammalashtirish shifri nimaga asoslangan?
++ shifrlanadigan matn ramzlari shifr gammasi deb nomlanuvchi ba`zi taxminiy simvollar ketma-ketligi bilan qo’shiladi
+- shifrlanadigan matn ramzlari oldindan kelishilgan sxema bo’yicha matn ramzlari alifbo ramzlarini o’zgartirishga asoslangan
+- shifrlanadigan matn ramzlari shu matnning biron-bir qismi chegarasida o’zaro joylashuvlarni bajarishga asoslangan
+- shifrlanadigan matn biron-bir analitik analitik qoida (formula) bo’yicha o’zgartirishga asoslanadi
+
+# Ikkilangan o’rin almashtirish variantlar jadval hajmining kattalashishi bilan tez oshadi. 3 o’lchovli jadval uchun nechta variant to’g’ri keladi?
++ 576
+- 36
+- 844
+- 4400
+
+# Ikkilangan o’rin almashtirish variantlar jadval hajmining kattalashishi bilan tez oshadi. 4 o’lchovli jadval uchun nechta variant to’g’ri keladi?
++ 576
+- 36
+- 844
+- 4400
+
+# Ikkilangan o’rin almashtirish variantlar jadval hajmining kattalashishi bilan tez oshadi. 5 o’lchovli jadval uchun nechta variant to’g’ri keladi?
++ 4400
+- 36
+- 576
+- 844
+
+# Tsezar shifrlash tizimi qachon ishlatilgan?
++ er.av. 50 y.
+- er.av. 250 y.
+- 50 yillarda.
+- XIX asrda.
+
+# Tsezar shifrlash tizimining eng mashhur modifikatsiyasi qanday nomlanadi?
++ Afina tizimi
+- Rim tizimi
+- Qohira tizimi
+- Samarqand tizimi
+
+# Elektron raqamli imzoni yaratishga mo`ljallangan kalit nima deb ataladi?
++ Elektron raqamli imzo yopiq kaliti
+- Elektron raqamli imzo ochiq kaliti 
+- Shifrlash vositasi
+- Kodlash vositasi
+
+# ‘SPAM’ nima?
++ Ahborotlarni so`ralmagan hollarda anonim tarzda tarqatilishi.
+- Reklamalarni so`ralmagan hollarda tarqatilishi.
+- Axborotni ommaviy tarqalishi.
+- Maqbul bo`lmagan xatlar.
+
+# Foydalanuvchining login va parollari, maxfiy ma’lumotlaridan foydalanish maqsadidagi internet-firibgarlik qanday nomlanadi?
++ Fishing.
+- Xaker hujumi.
+- Virus tarqatish.
+- Axborotlarni ko’rinishini o’zgartirish.
+
+# Axborotlarni o`tkazishda ularni nazorat qiluvchi va fil’trlovchi apparat va dasturiy vositalar majmuasi qanday nomlanadi? 
++ Tarmoqlararo ekran
+- Marshrutizator
+- Taqsimlagich
+- Blokirator
+
+# Komp’yuterga zarar yetkazuvchi hamda o`z-o`zidan ko`payish xususiyatiga ega bo`lgan komp’yuter dasturlari qanday nomlanadi?
++ Komp’yuter virusi
+- Tizim xatoligi
+- Drayver
+- Makros
