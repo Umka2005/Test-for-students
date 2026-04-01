@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Violet Quiz Master</title>
+    <title>Violet Quiz Master v2</title>
+    <!-- Tailwind CSS v4 -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <style type="text/tailwindcss">
         @theme {
@@ -14,39 +15,45 @@
                 @apply transition-colors duration-300;
             }
         }
+        /* Ensure dark mode works correctly with the .dark class */
+        .dark {
+            color-scheme: dark;
+        }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body class="bg-violet-50 text-violet-900 dark:bg-slate-950 dark:text-violet-100 min-h-screen font-sans">
 
     <!-- Theme Toggle -->
     <div class="fixed top-4 left-4 z-50">
-        <button id="theme-toggle" class="p-3 rounded-full bg-white dark:bg-violet-800 text-violet-600 dark:text-violet-100 shadow-lg hover:bg-violet-100 dark:hover:bg-violet-700 border border-violet-200 dark:border-transparent transition-all duration-300">
+        <button id="theme-toggle" class="p-3 rounded-full bg-white dark:bg-violet-800 text-violet-600 dark:text-violet-100 shadow-lg hover:bg-violet-100 dark:hover:bg-violet-700 border border-violet-200 dark:border-transparent transition-all duration-300 focus:outline-none">
             <i data-lucide="moon" id="theme-icon"></i>
         </button>
     </div>
 
     <!-- Question Counter -->
-    <div id="counter" class="fixed top-4 right-4 text-violet-600 dark:text-violet-400 font-bold text-lg hidden">
+    <div id="counter" class="fixed top-4 right-4 text-violet-600 dark:text-violet-400 font-bold text-lg hidden bg-white/50 dark:bg-slate-900/50 px-4 py-2 rounded-xl backdrop-blur-sm border border-violet-200 dark:border-violet-800">
         Savol: <span id="current-count">0</span>/25
     </div>
 
     <main id="app-container" class="max-w-2xl mx-auto px-4 py-20 flex flex-col items-center justify-center min-h-screen">
+        
         <!-- Upload Section -->
         <div id="upload-section" class="text-center space-y-6 w-full">
-            <div class="p-12 rounded-3xl border-2 border-dashed border-violet-300 dark:border-violet-800 bg-white dark:bg-violet-900/10 transition-all duration-300">
+            <div class="p-12 rounded-3xl border-2 border-dashed border-violet-300 dark:border-violet-800 bg-white dark:bg-violet-900/10 transition-all duration-300 shadow-xl">
                 <i data-lucide="upload" class="mx-auto mb-4 text-violet-500 w-12 h-12"></i>
-                <h2 class="text-2xl font-bold mb-2">Yuklash</h2>
-                <p class="text-violet-500/70 mb-6">Test faylini tanlang (.txt)</p>
-                <label class="cursor-pointer bg-violet-600 hover:bg-violet-700 text-white px-8 py-3 rounded-xl font-medium transition-colors shadow-lg inline-block">
+                <h2 class="text-2xl font-bold mb-2">Testni boshlash</h2>
+                <p class="text-violet-500/70 mb-6">Faylni yuklang va 25 ta tasodifiy savolga javob bering</p>
+                <label class="cursor-pointer bg-violet-600 hover:bg-violet-700 text-white px-8 py-3 rounded-xl font-medium transition-all shadow-lg hover:shadow-violet-500/40 inline-block active:scale-95">
                     Faylni tanlash
                     <input type="file" id="file-input" accept=".txt" class="hidden">
                 </label>
             </div>
-            <div class="text-sm opacity-60 space-y-1">
-                <p>Format:</p>
-                <p># Savol</p>
+            <div class="text-sm opacity-60 space-y-1 bg-violet-100/50 dark:bg-violet-900/20 p-4 rounded-2xl">
+                <p class="font-bold mb-1">Fayl formati:</p>
+                <p># Savol matni</p>
                 <p>+ To'g'ri javob</p>
                 <p>- Noto'g'ri javob</p>
             </div>
@@ -55,7 +62,7 @@
         <!-- Quiz Section (Hidden by default) -->
         <div id="quiz-section" class="hidden w-full space-y-8">
             <div class="space-y-4">
-                <span class="text-xs font-bold uppercase tracking-widest text-violet-500">Savol</span>
+                <span class="text-xs font-bold uppercase tracking-widest text-violet-500 bg-violet-100 dark:bg-violet-900/30 px-3 py-1 rounded-full">Savol</span>
                 <h1 id="question-text" class="text-3xl md:text-4xl font-extrabold leading-tight"></h1>
             </div>
 
@@ -66,28 +73,33 @@
 
         <!-- Results Section (Hidden by default) -->
         <div id="results-section" class="hidden w-full text-center space-y-8">
-            <div class="p-12 rounded-3xl bg-white dark:bg-violet-900/10 border-2 border-violet-200 dark:border-violet-800 shadow-xl">
-                <i data-lucide="trophy" class="mx-auto mb-6 text-yellow-500 w-20 h-20"></i>
+            <div class="p-12 rounded-3xl bg-white dark:bg-violet-900/10 border-2 border-violet-200 dark:border-violet-800 shadow-2xl">
+                <div class="relative inline-block mb-6">
+                    <i data-lucide="trophy" class="text-yellow-500 w-24 h-24"></i>
+                    <div class="absolute -top-2 -right-2 bg-violet-600 text-white text-xs font-bold px-2 py-1 rounded-full animate-bounce">Ajoyib!</div>
+                </div>
                 <h2 class="text-4xl font-black mb-2">Natija</h2>
-                <p class="text-xl text-violet-500/80 mb-6">Siz 25 ta savoldan quyidagicha ball to'pladingiz:</p>
-                <div class="text-6xl font-black text-violet-600 dark:text-violet-400">
-                    <span id="correct-score">0</span> / 25
+                <p class="text-xl text-violet-500/80 mb-8">Siz 25 ta savoldan quyidagicha ball to'pladingiz:</p>
+                <div class="inline-flex items-center justify-center p-8 rounded-full bg-violet-100 dark:bg-violet-900/30 border-4 border-violet-500">
+                    <div class="text-7xl font-black text-violet-600 dark:text-violet-400">
+                        <span id="correct-score">0</span><span class="text-3xl text-violet-400">/25</span>
+                    </div>
                 </div>
             </div>
-            <p class="text-violet-500/60 italic">Yana boshlash uchun pastdagi tugmani bosing</p>
+            <p class="text-violet-500/60 italic animate-pulse">Yana boshlash uchun pastdagi tugmani bosing</p>
         </div>
     </main>
 
     <!-- Next Button (Hidden by default) -->
     <div id="next-container" class="fixed bottom-8 right-8 hidden">
-        <button id="next-button" class="flex items-center gap-2 bg-violet-600 hover:bg-violet-700 text-white px-8 py-4 rounded-2xl font-bold transition-all duration-300 shadow-xl hover:shadow-violet-500/20 group">
+        <button id="next-button" class="flex items-center gap-3 bg-violet-600 hover:bg-violet-700 text-white px-10 py-5 rounded-2xl font-bold transition-all duration-300 shadow-2xl hover:shadow-violet-500/40 active:scale-95 group">
             <span id="next-text">ketingi</span>
             <i data-lucide="chevron-right" id="next-icon" class="group-hover:translate-x-1 transition-transform"></i>
         </button>
     </div>
 
     <script>
-        // State
+        // --- State ---
         let questions = [];
         let currentQuestion = null;
         let showFeedback = false;
@@ -97,7 +109,7 @@
         const MAX_QUESTIONS = 25;
         let isFinished = false;
 
-        // Elements
+        // --- Elements ---
         const themeToggle = document.getElementById('theme-toggle');
         const themeIcon = document.getElementById('theme-icon');
         const fileInput = document.getElementById('file-input');
@@ -114,9 +126,8 @@
         const nextText = document.getElementById('next-text');
         const nextIcon = document.getElementById('next-icon');
 
-        // Theme Logic
-        themeToggle.addEventListener('click', () => {
-            isDarkMode = !isDarkMode;
+        // --- Theme Logic ---
+        function updateTheme() {
             if (isDarkMode) {
                 document.documentElement.classList.add('dark');
                 themeIcon.setAttribute('data-lucide', 'sun');
@@ -124,10 +135,15 @@
                 document.documentElement.classList.remove('dark');
                 themeIcon.setAttribute('data-lucide', 'moon');
             }
-            lucide.createIcons();
+            if (window.lucide) lucide.createIcons();
+        }
+
+        themeToggle.addEventListener('click', () => {
+            isDarkMode = !isDarkMode;
+            updateTheme();
         });
 
-        // File Parsing
+        // --- File Parsing ---
         fileInput.addEventListener('change', (e) => {
             const file = e.target.files[0];
             if (!file) return;
@@ -138,6 +154,8 @@
                 questions = parseQuestions(text);
                 if (questions.length > 0) {
                     startQuiz();
+                } else {
+                    alert("Fayl formati noto'g'ri yoki savollar topilmadi.");
                 }
             };
             reader.readAsText(file);
@@ -160,17 +178,21 @@
             });
         }
 
+        // --- Quiz Logic ---
         function startQuiz() {
             questionCount = 0;
             correctCount = 0;
             isFinished = false;
+            
             uploadSection.classList.add('hidden');
             resultsSection.classList.add('hidden');
             quizSection.classList.remove('hidden');
             nextContainer.classList.remove('hidden');
             counterContainer.classList.remove('hidden');
+            
             nextText.textContent = 'ketingi';
             nextIcon.setAttribute('data-lucide', 'chevron-right');
+            
             pickRandomQuestion();
         }
 
@@ -191,9 +213,14 @@
             let nextIndex;
             const currentIndex = questions.indexOf(currentQuestion);
             
-            do {
-                nextIndex = Math.floor(Math.random() * questions.length);
-            } while (nextIndex === currentIndex && questions.length > 1);
+            // Try to pick a different question if possible
+            if (questions.length > 1) {
+                do {
+                    nextIndex = Math.floor(Math.random() * questions.length);
+                } while (nextIndex === currentIndex);
+            } else {
+                nextIndex = 0;
+            }
 
             currentQuestion = questions[nextIndex];
             showFeedback = false;
@@ -204,11 +231,12 @@
             questionText.textContent = currentQuestion.text;
             answersContainer.innerHTML = '';
 
+            // Shuffle answers
             const shuffled = [...currentQuestion.answers].sort(() => Math.random() - 0.5);
 
-            shuffled.forEach((answer, index) => {
+            shuffled.forEach((answer) => {
                 const button = document.createElement('button');
-                button.className = `w-full p-5 text-left rounded-2xl border-2 transition-all duration-200 flex items-center justify-between group bg-white dark:bg-violet-900/20 border-violet-500 dark:border-violet-700/30 hover:bg-violet-50 dark:hover:bg-violet-900/40`;
+                button.className = `w-full p-5 text-left rounded-2xl border-2 transition-all duration-200 flex items-center justify-between group bg-white dark:bg-violet-900/20 border-violet-500 dark:border-violet-700/30 hover:bg-violet-50 dark:hover:bg-violet-900/40 shadow-sm hover:shadow-md active:scale-[0.98]`;
                 
                 const span = document.createElement('span');
                 span.className = 'text-lg font-medium';
@@ -220,14 +248,14 @@
                 button.appendChild(span);
                 button.appendChild(iconContainer);
 
-                button.onclick = () => handleAnswerClick(button, answer, iconContainer);
+                button.onclick = () => handleAnswerClick(button, answer);
                 answersContainer.appendChild(button);
             });
             
-            lucide.createIcons();
+            if (window.lucide) lucide.createIcons();
         }
 
-        function handleAnswerClick(clickedButton, answer, iconContainer) {
+        function handleAnswerClick(clickedButton, answer) {
             if (showFeedback) return;
             showFeedback = true;
 
@@ -237,27 +265,29 @@
 
             const buttons = answersContainer.querySelectorAll('button');
             
-            buttons.forEach((btn, idx) => {
+            buttons.forEach((btn) => {
                 btn.disabled = true;
                 const btnAnswerText = btn.querySelector('span').textContent;
                 const originalAnswer = currentQuestion.answers.find(a => a.text === btnAnswerText);
                 const btnIconContainer = btn.querySelector('div');
 
                 if (originalAnswer.isCorrect) {
-                    btn.className = `w-full p-5 text-left rounded-2xl border-2 transition-all duration-200 flex items-center justify-between group bg-green-100 border-green-500 text-green-900 dark:bg-green-900/30 dark:border-green-500 dark:text-green-100`;
+                    // Correct answer always turns green
+                    btn.className = `w-full p-5 text-left rounded-2xl border-2 transition-all duration-200 flex items-center justify-between group bg-green-100 border-green-500 text-green-900 dark:bg-green-900/40 dark:border-green-500 dark:text-green-100 shadow-lg shadow-green-500/20`;
                     btnIconContainer.innerHTML = '<i data-lucide="check" class="text-green-500"></i>';
                     btnIconContainer.classList.remove('hidden');
                 } else if (btn === clickedButton && !originalAnswer.isCorrect) {
-                    btn.className = `w-full p-5 text-left rounded-2xl border-2 transition-all duration-200 flex items-center justify-between group bg-red-100 border-red-500 text-red-900 dark:bg-red-900/30 dark:border-red-500 dark:text-red-100`;
+                    // Wrong answer clicked turns red
+                    btn.className = `w-full p-5 text-left rounded-2xl border-2 transition-all duration-200 flex items-center justify-between group bg-red-100 border-red-500 text-red-900 dark:bg-red-900/40 dark:border-red-500 dark:text-red-100 shadow-lg shadow-red-500/20`;
                     btnIconContainer.innerHTML = '<i data-lucide="x" class="text-red-500"></i>';
                     btnIconContainer.classList.remove('hidden');
                 } else {
-                    btn.classList.add('opacity-50');
-                    btn.classList.remove('hover:bg-violet-50', 'dark:hover:bg-violet-900/40');
+                    // Other answers fade out
+                    btn.classList.add('opacity-40', 'scale-95');
                 }
             });
 
-            lucide.createIcons();
+            if (window.lucide) lucide.createIcons();
         }
 
         function showResults() {
@@ -265,16 +295,21 @@
             quizSection.classList.add('hidden');
             counterContainer.classList.add('hidden');
             resultsSection.classList.remove('hidden');
+            
             correctScoreSpan.textContent = correctCount;
             nextText.textContent = 'Boshidan boshlash';
             nextIcon.setAttribute('data-lucide', 'rotate-ccw');
-            lucide.createIcons();
+            
+            if (window.lucide) lucide.createIcons();
         }
 
         nextButton.addEventListener('click', pickRandomQuestion);
 
-        // Initialize Icons
-        lucide.createIcons();
+        // --- Initialization ---
+        window.addEventListener('DOMContentLoaded', () => {
+            if (window.lucide) lucide.createIcons();
+            console.log("Violet Quiz Master v2.0 initialized.");
+        });
     </script>
 </body>
 </html>
