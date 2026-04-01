@@ -1,13 +1,217 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Google AI Studio App</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
-</html>
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Violet Quiz Master</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+            --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+        }
+        @layer base {
+            body {
+                @apply transition-colors duration-300;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-violet-50 text-violet-900 dark:bg-slate-950 dark:text-violet-100 min-h-screen font-sans">
 
+    <!-- Theme Toggle -->
+    <div class="fixed top-4 left-4 z-50">
+        <button id="theme-toggle" class="p-3 rounded-full bg-white dark:bg-violet-800 text-violet-600 dark:text-violet-100 shadow-lg hover:bg-violet-100 dark:hover:bg-violet-700 border border-violet-200 dark:border-transparent transition-all duration-300">
+            <i data-lucide="moon" id="theme-icon"></i>
+        </button>
+    </div>
+
+    <main id="app-container" class="max-w-2xl mx-auto px-4 py-20 flex flex-col items-center justify-center min-h-screen">
+        <!-- Upload Section -->
+        <div id="upload-section" class="text-center space-y-6 w-full">
+            <div class="p-12 rounded-3xl border-2 border-dashed border-violet-300 dark:border-violet-800 bg-white dark:bg-violet-900/10 transition-all duration-300">
+                <i data-lucide="upload" class="mx-auto mb-4 text-violet-500 w-12 h-12"></i>
+                <h2 class="text-2xl font-bold mb-2">Yuklash</h2>
+                <p class="text-violet-500/70 mb-6">Test faylini tanlang (.txt)</p>
+                <label class="cursor-pointer bg-violet-600 hover:bg-violet-700 text-white px-8 py-3 rounded-xl font-medium transition-colors shadow-lg inline-block">
+                    Faylni tanlash
+                    <input type="file" id="file-input" accept=".txt" class="hidden">
+                </label>
+            </div>
+            <div class="text-sm opacity-60 space-y-1">
+                <p>Format:</p>
+                <p># Savol</p>
+                <p>+ To'g'ri javob</p>
+                <p>- Noto'g'ri javob</p>
+            </div>
+        </div>
+
+        <!-- Quiz Section (Hidden by default) -->
+        <div id="quiz-section" class="hidden w-full space-y-8">
+            <div class="space-y-4">
+                <span class="text-xs font-bold uppercase tracking-widest text-violet-500">Savol</span>
+                <h1 id="question-text" class="text-3xl md:text-4xl font-extrabold leading-tight"></h1>
+            </div>
+
+            <div id="answers-container" class="grid gap-4">
+                <!-- Answers will be injected here -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Next Button (Hidden by default) -->
+    <div id="next-container" class="fixed bottom-8 right-8 hidden">
+        <button id="next-button" class="flex items-center gap-2 bg-violet-600 hover:bg-violet-700 text-white px-8 py-4 rounded-2xl font-bold transition-all duration-300 shadow-xl hover:shadow-violet-500/20 group">
+            ketingi
+            <i data-lucide="chevron-right" class="group-hover:translate-x-1 transition-transform"></i>
+        </button>
+    </div>
+
+    <script>
+        // State
+        let questions = [];
+        let currentQuestion = null;
+        let showFeedback = false;
+        let isDarkMode = false;
+
+        // Elements
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeIcon = document.getElementById('theme-icon');
+        const fileInput = document.getElementById('file-input');
+        const uploadSection = document.getElementById('upload-section');
+        const quizSection = document.getElementById('quiz-section');
+        const nextContainer = document.getElementById('next-container');
+        const questionText = document.getElementById('question-text');
+        const answersContainer = document.getElementById('answers-container');
+        const nextButton = document.getElementById('next-button');
+
+        // Theme Logic
+        themeToggle.addEventListener('click', () => {
+            isDarkMode = !isDarkMode;
+            document.documentElement.classList.toggle('dark');
+            themeIcon.setAttribute('data-lucide', isDarkMode ? 'sun' : 'moon');
+            lucide.createIcons();
+        });
+
+        // File Parsing
+        fileInput.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = (event) => {
+                const text = event.target.result;
+                questions = parseQuestions(text);
+                if (questions.length > 0) {
+                    startQuiz();
+                }
+            };
+            reader.readAsText(file);
+        });
+
+        function parseQuestions(text) {
+            const blocks = text.split('#').filter(block => block.trim() !== '');
+            return blocks.map((block, index) => {
+                const lines = block.trim().split('\n').map(line => line.trim());
+                const question = lines[0];
+                const answers = lines.slice(1).map(line => {
+                    if (line.startsWith('+')) {
+                        return { text: line.substring(1).trim(), isCorrect: true };
+                    } else if (line.startsWith('-')) {
+                        return { text: line.substring(1).trim(), isCorrect: false };
+                    }
+                    return null;
+                }).filter(a => a !== null);
+                return { id: index, text: question, answers };
+            });
+        }
+
+        function startQuiz() {
+            uploadSection.classList.add('hidden');
+            quizSection.classList.remove('hidden');
+            nextContainer.classList.remove('hidden');
+            pickRandomQuestion();
+        }
+
+        function pickRandomQuestion() {
+            if (questions.length === 0) return;
+            
+            let nextIndex;
+            const currentIndex = questions.indexOf(currentQuestion);
+            
+            do {
+                nextIndex = Math.floor(Math.random() * questions.length);
+            } while (nextIndex === currentIndex && questions.length > 1);
+
+            currentQuestion = questions[nextIndex];
+            showFeedback = false;
+            renderQuestion();
+        }
+
+        function renderQuestion() {
+            questionText.textContent = currentQuestion.text;
+            answersContainer.innerHTML = '';
+
+            const shuffled = [...currentQuestion.answers].sort(() => Math.random() - 0.5);
+
+            shuffled.forEach((answer, index) => {
+                const button = document.createElement('button');
+                button.className = `w-full p-5 text-left rounded-2xl border-2 transition-all duration-200 flex items-center justify-between group bg-white dark:bg-violet-900/20 border-violet-500 dark:border-violet-700/30 hover:bg-violet-50 dark:hover:bg-violet-900/40`;
+                
+                const span = document.createElement('span');
+                span.className = 'text-lg font-medium';
+                span.textContent = answer.text;
+                
+                const iconContainer = document.createElement('div');
+                iconContainer.className = 'flex-shrink-0 ml-4 hidden';
+                
+                button.appendChild(span);
+                button.appendChild(iconContainer);
+
+                button.onclick = () => handleAnswerClick(button, answer, iconContainer);
+                answersContainer.appendChild(button);
+            });
+            
+            lucide.createIcons();
+        }
+
+        function handleAnswerClick(clickedButton, answer, iconContainer) {
+            if (showFeedback) return;
+            showFeedback = true;
+
+            const buttons = answersContainer.querySelectorAll('button');
+            
+            buttons.forEach((btn, idx) => {
+                btn.disabled = true;
+                const btnAnswerText = btn.querySelector('span').textContent;
+                const originalAnswer = currentQuestion.answers.find(a => a.text === btnAnswerText);
+                const btnIconContainer = btn.querySelector('div');
+
+                if (originalAnswer.isCorrect) {
+                    // Correct answer always turns green
+                    btn.className = `w-full p-5 text-left rounded-2xl border-2 transition-all duration-200 flex items-center justify-between group bg-green-100 border-green-500 text-green-900 dark:bg-green-900/30 dark:border-green-500 dark:text-green-100`;
+                    btnIconContainer.innerHTML = '<i data-lucide="check" class="text-green-500"></i>';
+                    btnIconContainer.classList.remove('hidden');
+                } else if (btn === clickedButton && !originalAnswer.isCorrect) {
+                    // Wrong answer clicked turns red
+                    btn.className = `w-full p-5 text-left rounded-2xl border-2 transition-all duration-200 flex items-center justify-between group bg-red-100 border-red-500 text-red-900 dark:bg-red-900/30 dark:border-red-500 dark:text-red-100`;
+                    btnIconContainer.innerHTML = '<i data-lucide="x" class="text-red-500"></i>';
+                    btnIconContainer.classList.remove('hidden');
+                } else {
+                    // Other answers fade out
+                    btn.classList.add('opacity-50');
+                    btn.classList.remove('hover:bg-violet-50', 'dark:hover:bg-violet-900/40');
+                }
+            });
+
+            lucide.createIcons();
+        }
+
+        nextButton.addEventListener('click', pickRandomQuestion);
+
+        // Initialize Icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
