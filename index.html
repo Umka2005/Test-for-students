@@ -179,12 +179,14 @@
         // --- Server Tests ---
         async function loadServerTests() {
             try {
-                const response = await fetch('/api/tests');
+                // Fetch the static manifest file
+                const response = await fetch('./tests/list.json');
+                if (!response.ok) throw new Error("Manifest not found");
                 const files = await response.json();
                 renderTestsList(files);
             } catch (error) {
                 console.error("Error loading tests:", error);
-                testsList.innerHTML = '<div class="text-center py-8 text-red-500">Testlarni yuklashda xatolik yuz berdi.</div>';
+                testsList.innerHTML = '<div class="text-center py-8 text-red-500">Testlarni yuklashda xatolik yuz berdi. <br><span class="text-xs opacity-50">"tests/list.json" fayli mavjudligini tekshiring.</span></div>';
             }
         }
 
@@ -219,7 +221,9 @@
 
         async function selectServerTest(filename) {
             try {
-                const response = await fetch(`/api/tests/${filename}`);
+                // Fetch the static test file directly from the folder
+                const response = await fetch(`./tests/${filename}`);
+                if (!response.ok) throw new Error("Test file not found");
                 const text = await response.text();
                 questions = parseQuestions(text);
                 if (questions.length > 0) {
