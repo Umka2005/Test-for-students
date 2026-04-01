@@ -1,0 +1,5 @@
+{
+  "name": "Violet Quiz Master",
+  "description": "A violet-themed quiz application that parses text files and provides interactive feedback.",
+  "requestFramePermissions": []
+}
