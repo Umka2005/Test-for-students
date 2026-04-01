@@ -27,6 +27,11 @@
         </button>
     </div>
 
+    <!-- Question Counter -->
+    <div id="counter" class="fixed top-4 right-4 text-violet-600 dark:text-violet-400 font-bold text-lg hidden">
+        Savol: <span id="current-count">0</span>/25
+    </div>
+
     <main id="app-container" class="max-w-2xl mx-auto px-4 py-20 flex flex-col items-center justify-center min-h-screen">
         <!-- Upload Section -->
         <div id="upload-section" class="text-center space-y-6 w-full">
@@ -58,13 +63,26 @@
                 <!-- Answers will be injected here -->
             </div>
         </div>
+
+        <!-- Results Section (Hidden by default) -->
+        <div id="results-section" class="hidden w-full text-center space-y-8">
+            <div class="p-12 rounded-3xl bg-white dark:bg-violet-900/10 border-2 border-violet-200 dark:border-violet-800 shadow-xl">
+                <i data-lucide="trophy" class="mx-auto mb-6 text-yellow-500 w-20 h-20"></i>
+                <h2 class="text-4xl font-black mb-2">Natija</h2>
+                <p class="text-xl text-violet-500/80 mb-6">Siz 25 ta savoldan quyidagicha ball to'pladingiz:</p>
+                <div class="text-6xl font-black text-violet-600 dark:text-violet-400">
+                    <span id="correct-score">0</span> / 25
+                </div>
+            </div>
+            <p class="text-violet-500/60 italic">Yana boshlash uchun pastdagi tugmani bosing</p>
+        </div>
     </main>
 
     <!-- Next Button (Hidden by default) -->
     <div id="next-container" class="fixed bottom-8 right-8 hidden">
         <button id="next-button" class="flex items-center gap-2 bg-violet-600 hover:bg-violet-700 text-white px-8 py-4 rounded-2xl font-bold transition-all duration-300 shadow-xl hover:shadow-violet-500/20 group">
-            ketingi
-            <i data-lucide="chevron-right" class="group-hover:translate-x-1 transition-transform"></i>
+            <span id="next-text">ketingi</span>
+            <i data-lucide="chevron-right" id="next-icon" class="group-hover:translate-x-1 transition-transform"></i>
         </button>
     </div>
 
@@ -74,6 +92,10 @@
         let currentQuestion = null;
         let showFeedback = false;
         let isDarkMode = false;
+        let questionCount = 0;
+        let correctCount = 0;
+        const MAX_QUESTIONS = 25;
+        let isFinished = false;
 
         // Elements
         const themeToggle = document.getElementById('theme-toggle');
@@ -81,16 +103,27 @@
         const fileInput = document.getElementById('file-input');
         const uploadSection = document.getElementById('upload-section');
         const quizSection = document.getElementById('quiz-section');
+        const resultsSection = document.getElementById('results-section');
         const nextContainer = document.getElementById('next-container');
+        const counterContainer = document.getElementById('counter');
+        const currentCountSpan = document.getElementById('current-count');
+        const correctScoreSpan = document.getElementById('correct-score');
         const questionText = document.getElementById('question-text');
         const answersContainer = document.getElementById('answers-container');
         const nextButton = document.getElementById('next-button');
+        const nextText = document.getElementById('next-text');
+        const nextIcon = document.getElementById('next-icon');
 
         // Theme Logic
         themeToggle.addEventListener('click', () => {
             isDarkMode = !isDarkMode;
-            document.documentElement.classList.toggle('dark');
-            themeIcon.setAttribute('data-lucide', isDarkMode ? 'sun' : 'moon');
+            if (isDarkMode) {
+                document.documentElement.classList.add('dark');
+                themeIcon.setAttribute('data-lucide', 'sun');
+            } else {
+                document.documentElement.classList.remove('dark');
+                themeIcon.setAttribute('data-lucide', 'moon');
+            }
             lucide.createIcons();
         });
 
@@ -128,14 +161,32 @@
         }
 
         function startQuiz() {
+            questionCount = 0;
+            correctCount = 0;
+            isFinished = false;
             uploadSection.classList.add('hidden');
+            resultsSection.classList.add('hidden');
             quizSection.classList.remove('hidden');
             nextContainer.classList.remove('hidden');
+            counterContainer.classList.remove('hidden');
+            nextText.textContent = 'ketingi';
+            nextIcon.setAttribute('data-lucide', 'chevron-right');
             pickRandomQuestion();
         }
 
         function pickRandomQuestion() {
-            if (questions.length === 0) return;
+            if (isFinished) {
+                startQuiz();
+                return;
+            }
+
+            if (questionCount >= MAX_QUESTIONS) {
+                showResults();
+                return;
+            }
+
+            questionCount++;
+            currentCountSpan.textContent = questionCount;
             
             let nextIndex;
             const currentIndex = questions.indexOf(currentQuestion);
@@ -180,6 +231,10 @@
             if (showFeedback) return;
             showFeedback = true;
 
+            if (answer.isCorrect) {
+                correctCount++;
+            }
+
             const buttons = answersContainer.querySelectorAll('button');
             
             buttons.forEach((btn, idx) => {
@@ -189,22 +244,30 @@
                 const btnIconContainer = btn.querySelector('div');
 
                 if (originalAnswer.isCorrect) {
-                    // Correct answer always turns green
                     btn.className = `w-full p-5 text-left rounded-2xl border-2 transition-all duration-200 flex items-center justify-between group bg-green-100 border-green-500 text-green-900 dark:bg-green-900/30 dark:border-green-500 dark:text-green-100`;
                     btnIconContainer.innerHTML = '<i data-lucide="check" class="text-green-500"></i>';
                     btnIconContainer.classList.remove('hidden');
                 } else if (btn === clickedButton && !originalAnswer.isCorrect) {
-                    // Wrong answer clicked turns red
                     btn.className = `w-full p-5 text-left rounded-2xl border-2 transition-all duration-200 flex items-center justify-between group bg-red-100 border-red-500 text-red-900 dark:bg-red-900/30 dark:border-red-500 dark:text-red-100`;
                     btnIconContainer.innerHTML = '<i data-lucide="x" class="text-red-500"></i>';
                     btnIconContainer.classList.remove('hidden');
                 } else {
-                    // Other answers fade out
                     btn.classList.add('opacity-50');
                     btn.classList.remove('hover:bg-violet-50', 'dark:hover:bg-violet-900/40');
                 }
             });
 
+            lucide.createIcons();
+        }
+
+        function showResults() {
+            isFinished = true;
+            quizSection.classList.add('hidden');
+            counterContainer.classList.add('hidden');
+            resultsSection.classList.remove('hidden');
+            correctScoreSpan.textContent = correctCount;
+            nextText.textContent = 'Boshidan boshlash';
+            nextIcon.setAttribute('data-lucide', 'rotate-ccw');
             lucide.createIcons();
         }
 
