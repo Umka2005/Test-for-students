@@ -51,22 +51,40 @@
 
     <main id="app-container" class="max-w-2xl mx-auto px-4 py-20 flex flex-col items-center justify-center min-h-screen">
         
-        <!-- Upload Section -->
-        <div id="upload-section" class="text-center space-y-6 w-full">
-            <div class="p-12 rounded-3xl border-2 border-dashed border-violet-300 dark:border-violet-800 bg-white dark:bg-violet-900/10 transition-all duration-300 shadow-xl">
-                <i data-lucide="upload" class="mx-auto mb-4 text-violet-500 w-12 h-12"></i>
-                <h2 class="text-2xl font-bold mb-2">Testni boshlash</h2>
-                <p class="text-violet-500/70 mb-6">Faylni yuklang va 25 ta tasodifiy savolga javob bering</p>
-                <label class="cursor-pointer bg-violet-600 hover:bg-violet-700 text-white px-8 py-3 rounded-xl font-medium transition-all shadow-lg hover:shadow-violet-500/40 inline-block active:scale-95">
-                    Faylni tanlash
-                    <input type="file" id="file-input" accept=".txt" class="hidden">
-                </label>
+        <!-- Selection Section -->
+        <div id="selection-section" class="w-full space-y-8">
+            <div class="text-center space-y-2">
+                <h2 class="text-3xl font-black text-violet-600 dark:text-violet-400">Testni tanlang</h2>
+                <p class="text-violet-500/70">Mavjud testlardan birini tanlang yoki o'zingiznikini yuklang</p>
             </div>
-            <div class="text-sm opacity-60 space-y-1 bg-violet-100/50 dark:bg-violet-900/20 p-4 rounded-2xl">
-                <p class="font-bold mb-1">Fayl formati:</p>
-                <p># Savol matni</p>
-                <p>+ To'g'ri javob</p>
-                <p>- Noto'g'ri javob</p>
+
+            <!-- Server Tests List -->
+            <div id="tests-list" class="grid gap-4 max-h-[40vh] overflow-y-auto p-2 scrollbar-thin scrollbar-thumb-violet-300 dark:scrollbar-thumb-violet-800">
+                <!-- Tests will be injected here -->
+                <div id="loading-tests" class="text-center py-8 opacity-50 italic">Testlar yuklanmoqda...</div>
+            </div>
+
+            <div class="relative py-4">
+                <div class="absolute inset-0 flex items-center"><div class="w-full border-t border-violet-200 dark:border-violet-800"></div></div>
+                <div class="relative flex justify-center text-xs uppercase"><span class="bg-violet-50 dark:bg-slate-950 px-4 text-violet-400">yoki</span></div>
+            </div>
+
+            <!-- Upload Section -->
+            <div id="upload-section" class="text-center space-y-6 w-full">
+                <div class="p-8 rounded-3xl border-2 border-dashed border-violet-300 dark:border-violet-800 bg-white dark:bg-violet-900/10 transition-all duration-300 shadow-xl hover:border-violet-500">
+                    <i data-lucide="upload" class="mx-auto mb-4 text-violet-500 w-10 h-10"></i>
+                    <h3 class="text-xl font-bold mb-1">O'z testingizni yuklang</h3>
+                    <p class="text-sm text-violet-500/70 mb-6">.txt formatidagi faylni tanlang</p>
+                    <label class="cursor-pointer bg-violet-600 hover:bg-violet-700 text-white px-8 py-3 rounded-xl font-medium transition-all shadow-lg hover:shadow-violet-500/40 inline-block active:scale-95">
+                        Faylni tanlash
+                        <input type="file" id="file-input" accept=".txt" class="hidden">
+                    </label>
+                </div>
+                <div class="text-[10px] opacity-40 space-y-1 bg-violet-100/50 dark:bg-violet-900/20 p-3 rounded-2xl flex justify-around">
+                    <span># Savol</span>
+                    <span>+ To'g'ri</span>
+                    <span>- Noto'g'ri</span>
+                </div>
             </div>
         </div>
 
@@ -126,7 +144,8 @@
         const themeToggle = document.getElementById('theme-toggle');
         const themeIcon = document.getElementById('theme-icon');
         const fileInput = document.getElementById('file-input');
-        const uploadSection = document.getElementById('upload-section');
+        const selectionSection = document.getElementById('selection-section');
+        const testsList = document.getElementById('tests-list');
         const quizSection = document.getElementById('quiz-section');
         const resultsSection = document.getElementById('results-section');
         const nextContainer = document.getElementById('next-container');
@@ -156,6 +175,61 @@
             isDarkMode = !isDarkMode;
             updateTheme();
         });
+
+        // --- Server Tests ---
+        async function loadServerTests() {
+            try {
+                const response = await fetch('/api/tests');
+                const files = await response.json();
+                renderTestsList(files);
+            } catch (error) {
+                console.error("Error loading tests:", error);
+                testsList.innerHTML = '<div class="text-center py-8 text-red-500">Testlarni yuklashda xatolik yuz berdi.</div>';
+            }
+        }
+
+        function renderTestsList(files) {
+            if (files.length === 0) {
+                testsList.innerHTML = '<div class="text-center py-8 opacity-50 italic">Hozircha testlar mavjud emas.</div>';
+                return;
+            }
+
+            testsList.innerHTML = '';
+            files.forEach(file => {
+                const button = document.createElement('button');
+                button.className = 'w-full p-4 text-left rounded-2xl bg-white dark:bg-violet-900/20 border-2 border-violet-200 dark:border-violet-800 hover:border-violet-500 transition-all flex items-center gap-4 group shadow-sm hover:shadow-md';
+                
+                const iconDiv = document.createElement('div');
+                iconDiv.className = 'p-2 rounded-xl bg-violet-100 dark:bg-violet-900/40 text-violet-600 dark:text-violet-400 group-hover:bg-violet-600 group-hover:text-white transition-colors';
+                iconDiv.innerHTML = '<i data-lucide="file-text" class="w-5 h-5"></i>';
+                
+                const nameSpan = document.createElement('span');
+                nameSpan.className = 'font-bold truncate';
+                nameSpan.textContent = file.replace('.txt', '');
+
+                button.appendChild(iconDiv);
+                button.appendChild(nameSpan);
+                
+                button.onclick = () => selectServerTest(file);
+                testsList.appendChild(button);
+            });
+            
+            if (window.lucide) lucide.createIcons();
+        }
+
+        async function selectServerTest(filename) {
+            try {
+                const response = await fetch(`/api/tests/${filename}`);
+                const text = await response.text();
+                questions = parseQuestions(text);
+                if (questions.length > 0) {
+                    startQuiz();
+                }
+            } catch (error) {
+                console.error("Error selecting test:", error);
+                alert("Testni yuklashda xatolik yuz berdi.");
+            }
+        }
 
         // --- File Parsing ---
         fileInput.addEventListener('change', (e) => {
@@ -199,7 +273,7 @@
             correctCount = 0;
             isFinished = false;
             
-            uploadSection.classList.add('hidden');
+            selectionSection.classList.add('hidden');
             resultsSection.classList.add('hidden');
             quizSection.classList.remove('hidden');
             nextContainer.classList.remove('hidden');
@@ -213,11 +287,12 @@
 
         function pickRandomQuestion() {
             if (isFinished) {
-                startQuiz();
+                // Reset to selection screen instead of starting same quiz
+                resetToSelection();
                 return;
             }
 
-            if (questionCount >= MAX_QUESTIONS) {
+            if (questionCount >= MAX_QUESTIONS || questionCount >= questions.length) {
                 showResults();
                 return;
             }
@@ -239,6 +314,16 @@
             currentQuestion = questions[nextIndex];
             showFeedback = false;
             renderQuestion();
+        }
+
+        function resetToSelection() {
+            isFinished = false;
+            quizSection.classList.add('hidden');
+            resultsSection.classList.add('hidden');
+            nextContainer.classList.add('hidden');
+            counterContainer.classList.add('hidden');
+            selectionSection.classList.remove('hidden');
+            loadServerTests();
         }
 
         function renderQuestion() {
@@ -318,6 +403,7 @@
         // --- Initialization ---
         window.addEventListener('DOMContentLoaded', () => {
             if (window.lucide) lucide.createIcons();
+            loadServerTests();
             console.log("Violet Quiz Master v2.1 Ready.");
         });
     </script>
