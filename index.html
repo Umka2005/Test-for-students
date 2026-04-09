@@ -282,7 +282,7 @@
         });
 
         function parseQuestions(text) {
-            const blocks = text.split('#').filter(block => block.trim() !== '');
+            const blocks = text.split(/\n#/);
             return blocks.map((block, index) => {
                 const lines = block.trim().split('\n').map(line => line.trim());
                 const question = lines[0];
