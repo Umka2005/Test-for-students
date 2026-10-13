@@ -1,4 +1,4 @@
-﻿# C kodida sizeof(char) necha bayt?
+# C kodida sizeof(char) necha bayt?
 + 1
 - 2
 - 4
@@ -39,3 +39,1263 @@
 - Funksiya argumenti
 - Kod izohi
 - Fayl oxiridagi bo‘sh qator
+
+# struct P p = {3, 4}; printf("%d", p.y); nima chiqaradi (P = {int x; int y;})?
++ 4
+- 3
+- 7
+- 0
+
+# Kompilyatsiya bosqichlarining to‘g‘ri tartibi qaysi?
++ Preprotsessor → kompilyator → assembler → linker
+- Linker → assembler → kompilyator → preprotsessor
+- Assembler → linker → preprotsessor → kompilyator
+- Kompilyator → preprotsessor → linker → assembler
+
+# gcc -c main.c qanday fayl hosil qiladi?
++ main.o
+- main
+- main.s
+- main.a
+
+# gcc -S main.c qanday fayl hosil qiladi?
++ main.s (assembler matni)
+- main.o
+- main
+- main.i
+
+# gcc -E main.c nima qiladi?
++ Faqat preprotsessor ishlaydi
+- Faqat linker ishlaydi
+- Dastur ishga tushadi
+- Xatolarni tuzatadi
+
+# Statik kutubxona fayli qanday kengaytmaga ega?
++ .a
+- .so
+- .exe
+- .dll
+
+# Dinamik kutubxona fayli Linux da qanday kengaytmaga ega?
++ .so
+- .a
+- .o
+- .h
+
+# Stek qaysi tomonga o‘sadi?
++ Past manzillarga
+- Yuqori manzillarga
+- O‘smaydi
+- Tasodifiy
+
+# Heap qaysi tomonga o‘sadi?
++ Yuqori manzillarga
+- Past manzillarga
+- O‘smaydi
+- Stek ichiga
+
+# int x = 5; (funksiya ichida) x qayerda saqlanadi?
++ Stekda
+- Heapda
+- .text da
+- .rodata da
+
+# Sahifa (page) odatiy hajmi qancha?
++ 4096 bayt (4 KiB)
+- 64 bayt
+- 1 MiB
+- 512 bayt
+
+# Page fault nima?
++ Sahifa hozir xotirada yo‘qligi sababli yuzaga kelgan istisno
+- Kompilyator xatosi
+- Disk buzilishi
+- Tarmoq uzilishi
+
+# Registrlar, L1, L2, L3, DRAM — qaysi biri eng tez?
++ Registrlar
+- DRAM
+- L3
+- L2
+
+# Xotira ierarxiyasida DRAM va L1 keshdan qaysi biri sekinroq?
++ DRAM
+- L1
+- Ikkalasi teng
+- Hech qaysisi
+
+# C kodida sizeof(int)necha bayt?
++ 4
+- 2
+- 8
+- 16
+
+# Kod: int a=5,b=2; printf("%d", a*b); — nima chiqadi?
++ 10
+- 7
+- 3
+- 25
+
+# Kod: int a=7,b=2; printf("%d", a/b); — nima chiqadi?
++ 3
+- 3.5
+- 4
+- 2
+
+# Kod: int a=7,b=2; printf("%d", a%b); — nima chiqadi?
++ 1
+- 3
+- 0
+- 2
+
+# Kod: int a=10,b=3; printf("%d", a%b); — nima chiqadi?
++ 1
+- 3
+- 1.0
+- 0
+
+# Kod: int x=3; x=x+4; printf("%d", x); — nima chiqadi?
++ 7
+- 3
+- 4
+- 34
+
+# Kod: int x=5; x+=3; printf("%d", x); — nima chiqadi?
++ 8
+- 5
+- 3
+- 15
+
+# Kod: int x=10; x-=4; printf("%d", x); — nima chiqadi?
++ 6
+- 14
+- 10
+- 4
+
+# Kod: int x=4; x*=3; printf("%d", x); — nima chiqadi?
++ 12
+- 7
+- 43
+- 4
+
+# Kod: int x=5; x++; printf("%d", x); — nima chiqadi?
++ 6
+- 5
+- 4
+- 7
+
+# Kod: int x=5; x--; printf("%d", x); — nima chiqadi?
++ 4
+- 5
+- 6
+- 3
+
+# Kod: int x=5; printf("%d", x++); — nima chiqadi?
++ 5
+- 6
+- 4
+- 7
+
+# Kod: int x=5; printf("%d", ++x); — nima chiqadi?
++ 6
+- 5
+- 4
+- 7
+
+# Kod: double d=7/2; printf("%.1f", d); — nima chiqadi?
++ 3.0
+- 3.5
+- 4.0
+- 2.0
+
+# Kod: double d=7/2.0; printf("%.1f", d); — nima chiqadi?
++ 3.5
+- 3.0
+- 4.0
+- 2.5
+
+# Kod: int x=(int)3.9; printf("%d", x); — nima chiqadi?
++ 3
+- 4
+- 3.9
+- 0
+
+# Kod: char c='A'; printf("%d", c); — nima chiqadi?
++ 65
+- A
+- 1
+- 97
+
+# Kod: char c='A'; printf("%c", c+1); — nima chiqadi?
++ B
+- 66
+- A
+- C
+
+# Kod: char c='a'; printf("%c", c); — nima chiqadi?
++ a
+- 97
+- A
+- c
+
+# Kod: int a=1,b=2; int t=a; a=b; b=t; printf("%d %d", a, b); — nima chiqadi?
++ 2 1
+- 1 2
+- 2 2
+- 1 1
+
+# Kod: int a=3; int b=a*2+1; printf("%d", b); — nima chiqadi?
++ 7
+- 8
+- 9
+- 6
+
+# Kod: int a=2+3*4; printf("%d", a); — nima chiqadi?
++ 14
+- 20
+- 24
+- 9
+
+# Kod: int a=(2+3)*4; printf("%d", a); — nima chiqadi?
++ 20
+- 14
+- 24
+- 11
+
+# Kod: printf("%d", sizeof(int)); — nima chiqadi?
++ 4
+- 2
+- 8
+- 1
+
+# Kod: printf("%d", sizeof(char)); — nima chiqadi?
++ 1
+- 4
+- 2
+- 8
+
+# Kod: int x=5; printf("%d", x>3); — nima chiqadi?
++ 1
+- 5
+- 0
+- 3
+
+# Kod: int x=2; printf("%d", x>3); — nima chiqadi?
++ 0
+- 2
+- 1
+- 3
+
+# Kod: int a=5,b=5; printf("%d", a==b); — nima chiqadi?
++ 1
+- 5
+- 0
+- 10
+
+# Kod: int a=5,b=6; printf("%d", a!=b); — nima chiqadi?
++ 1
+- 0
+- 6
+- 5
+
+# Kod: int a=0; printf("%d", !a); — nima chiqadi?
++ 1
+- 0
+- -1
+- 2
+
+# Kod: unsigned char c=255; c=c+1; printf("%d", c); — nima chiqadi?
++ 0
+- 256
+- 255
+- -1
+
+# Kod: int a=5; int *p=&a; *p=9; printf("%d", a); — nima chiqadi?
++ 9
+- 5
+- 14
+- p
+
+# Kod: float f=1.5f; printf("%.1f", f*2); — nima chiqadi?
++ 3.0
+- 1.5
+- 2.0
+- 3
+
+# Kod: int a=10; a/=4; printf("%d", a); — nima chiqadi?
++ 2
+- 2.5
+- 3
+- 40
+
+# Kod: int a=10; a%=4; printf("%d", a); — nima chiqadi?
++ 2
+- 2.5
+- 0
+- 3
+
+# Kod: int arr[3]={4,5,6}; printf("%d", arr[1]); — nima chiqadi?
++ 5
+- 4
+- 6
+- 1
+
+# Kod: int arr[3]={4,5,6}; printf("%d", arr[0]+arr[2]); — nima chiqadi?
++ 10
+- 15
+- 9
+- 11
+
+# Kod: int arr[]={1,2,3,4}; printf("%d", sizeof(arr)/sizeof(arr[0])); — nima chiqadi?
++ 4
+- 16
+- 1
+- 3
+
+# Kod: int a=4,b=9; int m=(a>b)?a:b; printf("%d", m); — nima chiqadi?
++ 9
+- 4
+- 13
+- 5
+
+# Kod: char s[]="abc"; printf("%d", s[1]=='b'); — nima chiqadi?
++ 1
+- b
+- 0
+- 98
+
+# Kod: int x=7; printf("%s", x%2 ? "toq" : "juft"); — nima chiqadi?
++ toq
+- juft
+- 7
+- toq juft
+
+# Kod: int a=3,b=4; printf("%d", a*a+b*b); — nima chiqadi?
++ 25
+- 49
+- 14
+- 24
+
+# C tilida butun son saqlash uchun qaysi tur ishlatiladi?
++ int
+- float
+- char*
+- void
+
+# Haqiqiy (kasrli) son saqlash uchun qaysi tur mos?
++ double
+- int
+- char
+- void
+
+# Bitta belgi (masalan, 'A') saqlash uchun qaysi tur mos?
++ char
+- int*
+- double
+- string
+
+# Qaysi satr to‘g‘ri e’lon qilingan?
++ int a = 10;
+- a int = 10;
+- int a == 10;
+- integer a = 10;
+
+# C da har bir buyruq oxiriga nima qo‘yiladi?
++ Nuqta-vergul (;)
+- Nuqta (.)
+- Ikki nuqta (:)
+- Vergul (,)
+
+# = operatori nima qiladi?
++ Qiymat beradi (tenglashtiradi)
+- Ikkita qiymatni solishtiradi
+- Qo‘shadi
+- O‘chiradi
+
+# == operatori nima qiladi?
++ Ikkita qiymatni solishtiradi
+- Qiymat beradi
+- Ayiradi
+- Qo‘shadi
+
+# printf da butun son chiqarish uchun qaysi format ishlatiladi?
++ %d
+- %c
+- %s
+- %f
+
+# printf da belgi chiqarish uchun qaysi format ishlatiladi?
++ %c
+- %d
+- %s
+- %p
+
+# scanf("%d", &a); da & nima uchun kerak?
++ a ning manzilini berish uchun
+- a ni o‘chirish uchun
+- a ni ikkilantirish uchun
+- Hech nima uchun, ixtiyoriy
+
+# Massivning birinchi elementi qaysi indeksda?
++ 0
+- 1
+- -1
+- 10
+
+# int a[5]; massivning oxirgi indeksi nechta?
++ 4
+- 5
+- 6
+- 1
+
+# int a[5]; massivda nechta element bor?
++ 5
+- 4
+- 6
+- 1
+
+# C da 0 qiymat shartda nimani bildiradi?
++ Yolg‘on (false)
+- Rost (true)
+- Xato
+- Bo‘sh qator
+
+# C da noldan farqli son shartda nimani bildiradi?
++ Rost (true)
+- Yolg‘on (false)
+- Xato
+- Izoh
+
+# Bir nechta shartni ketma-ket tekshirish uchun nima ishlatiladi?
++ else if
+- break
+- return
+- void
+
+# Massivning barcha elementlarini aylanib chiqish uchun odatda nima ishlatiladi?
++ for sikli
+- switch
+- return
+- typedef
+
+# Sonning raqamlarini ajratish uchun qaysi amallar ishlatiladi?
++ % 10 va / 10
+- + va -
+- && va ||
+- == va !=
+
+# char name[10]; nimani bildiradi?
++ 10 ta belgi saqlaydigan massiv
+- 10 ta butun son
+- Bitta belgi
+- Funksiya
+
+# Kod: int a=1,b=0; printf("%d", a&&b); — nima chiqadi?
++ 0
+- 1
+- 2
+- -1
+
+# Kod: int a=1,b=0; printf("%d", a||b); — nima chiqadi?
++ 1
+- 0
+- 2
+- -1
+
+# Kod: int x=7; if(x>5) printf("katta"); else printf("kichik"); — nima chiqadi?
++ katta
+- kichik
+- katta kichik
+- hech narsa
+
+# Kod: int x=3; if(x>5) printf("katta"); else printf("kichik"); — nima chiqadi?
++ kichik
+- katta
+- katta kichik
+- hech narsa
+
+# Kod: int x=4; if(x%2==0) printf("juft"); else printf("toq"); — nima chiqadi?
++ juft
+- toq
+- juft toq
+- hech narsa
+
+# Kod: int x=9; if(x%2==0) printf("juft"); else printf("toq"); — nima chiqadi?
++ toq
+- juft
+- juft toq
+- hech narsa
+
+# Kod: int x=5; if(x>10) printf("A"); else if(x>3) printf("B"); else printf("C"); — nima chiqadi?
++ B
+- A
+- C
+- AB
+
+# Kod: int x=1; if(x>10) printf("A"); else if(x>3) printf("B"); else printf("C"); — nima chiqadi?
++ C
+- A
+- B
+- BC
+
+# Kod: int x=20; if(x>10) printf("A"); else if(x>3) printf("B"); else printf("C"); — nima chiqadi?
++ A
+- B
+- C
+- AB
+
+# Kod: int x=5; if(x>3 && x<10) printf("ha"); else printf("yoq"); — nima chiqadi?
++ ha
+- yoq
+- ha yoq
+- hech narsa
+
+# Kod: int x=15; if(x>3 && x<10) printf("ha"); else printf("yoq"); — nima chiqadi?
++ yoq
+- ha
+- ha yoq
+- hech narsa
+
+# Kod: int x=15; if(x<3 || x>10) printf("ha"); else printf("yoq"); — nima chiqadi?
++ ha
+- yoq
+- ha yoq
+- hech narsa
+
+# Kod: int x=0; if(x) printf("A"); else printf("B"); — nima chiqadi?
++ B
+- A
+- AB
+- hech narsa
+
+# Kod: int x=-3; if(x) printf("A"); else printf("B"); — nima chiqadi?
++ A
+- B
+- AB
+- hech narsa
+
+# Kod: int x=5; if(x=0) printf("A"); else printf("B"); — nima chiqadi?
++ B
+- A
+- AB
+- kompilyatsiya xatosi
+
+# Kod: int a=4,b=9; if(a<b) printf("%d", a); else printf("%d", b); — nima chiqadi?
++ 4
+- 9
+- 13
+- 5
+
+# Kod: int x=5; if(x>3) { printf("A"); printf("B"); } — nima chiqadi?
++ AB
+- A
+- B
+- BA
+
+# Kod: int x=5; if(x>8) printf("A"); printf("B"); — nima chiqadi?
++ B
+- A
+- AB
+- hech narsa
+
+# Kod: int s=75; if(s>=90) printf("5"); else if(s>=70) printf("4"); else printf("3"); — nima chiqadi?
++ 4
+- 5
+- 3
+- 45
+
+# Kod: int y=2024; if(y%4==0) printf("kabisa"); else printf("oddiy"); — nima chiqadi?
++ kabisa
+- oddiy
+- kabisa oddiy
+- hech narsa
+
+# Kod: int x=3,y=4; if(x>2 && y>5) printf("A"); else if(x>2 || y>5) printf("B"); else printf("C"); — nima chiqadi?
++ B
+- A
+- C
+- AB
+
+# && operatori nimani bildiradi?
++ VA (ikkala shart rost bo‘lsa rost)
+- YOKI
+- EMAS
+- Tenglik
+
+# || operatori nimani bildiradi?
++ YOKI (kamida bittasi rost bo‘lsa rost)
+- VA
+- EMAS
+- Bo‘lish
+
+# ! operatori nimani bildiradi?
++ EMAS (inkor)
+- VA
+- YOKI
+- Ko‘paytirish
+
+# if (a = 5) xato bo‘lishi mumkin. Nima uchun?
++ = qiymat beradi, solishtirish uchun == kerak
+- if da son yozib bo‘lmaydi
+- Qavs ortiqcha
+- Nuqta-vergul yo‘q
+
+# Kod: int d=2; switch(d){case 1: printf("A"); break; case 2: printf("B"); break; default: printf("C");} — nima chiqadi?
++ B
+- A
+- C
+- BC
+
+# Kod: int d=1; switch(d){case 1: printf("A"); break; case 2: printf("B"); break; default: printf("C");} — nima chiqadi?
++ A
+- B
+- C
+- AB
+
+# Kod: int d=9; switch(d){case 1: printf("A"); break; case 2: printf("B"); break; default: printf("C");} — nima chiqadi?
++ C
+- A
+- B
+- ABC
+
+# Kod: int d=1; switch(d){case 1: printf("A"); case 2: printf("B"); break; default: printf("C");} — nima chiqadi?
++ AB
+- A
+- B
+- ABC
+
+# Kod: int d=1; switch(d){case 1: printf("A"); case 2: printf("B"); default: printf("C");} — nima chiqadi?
++ ABC
+- A
+- AB
+- BC
+
+# Kod: int d=2; switch(d){case 1: printf("A"); case 2: printf("B"); case 3: printf("C");} — nima chiqadi?
++ BC
+- B
+- C
+- ABC
+
+# Kod: int d=3; switch(d){case 1: printf("A"); break; case 2: printf("B"); break;} — nima chiqadi?
++ hech narsa chiqmaydi
+- A
+- B
+- C
+
+# Kod: char c='b'; switch(c){case 'a': printf("1"); break; case 'b': printf("2"); break; default: printf("3");} — nima chiqadi?
++ 2
+- 1
+- 3
+- 12
+
+# Kod: char c='z'; switch(c){case 'a': printf("1"); break; case 'b': printf("2"); break; default: printf("3");} — nima chiqadi?
++ 3
+- 1
+- 2
+- 23
+
+# Kod: int d=3; switch(d){case 1: case 2: printf("X"); break; case 3: case 4: printf("Y"); break;} — nima chiqadi?
++ Y
+- X
+- XY
+- Z
+
+# Kod: int d=2; switch(d){case 1: case 2: printf("X"); break; case 3: case 4: printf("Y"); break;} — nima chiqadi?
++ X
+- Y
+- XY
+- hech narsa
+
+# Kod: int d=5; switch(d%3){case 0: printf("0"); break; case 1: printf("1"); break; case 2: printf("2"); break;} — nima chiqadi?
++ 2
+- 0
+- 1
+- 5
+
+# Kod: int k=4; switch(k*2){case 4: printf("a"); break; case 8: printf("b"); break; default: printf("c");} — nima chiqadi?
++ b
+- a
+- c
+- ab
+
+# break switch ichida nima qiladi?
++ switch dan chiqadi
+- Dasturni o‘chiradi
+- Siklni boshlaydi
+- Qiymat beradi
+
+# switch da break yozilmasa nima bo‘ladi?
++ Keyingi case lar ham bajariladi (fall-through)
+- Xato beradi
+- Dastur tugaydi
+- Hech narsa bo‘lmaydi
+
+# default qachon bajariladi?
++ Hech bir case mos kelmasa
+- Har doim birinchi
+- Faqat oxirgi case dan keyin
+- Hech qachon
+
+# switch ichida qaysi tur ishlatiladi?
++ int yoki char
+- double
+- float
+- massiv
+
+# case 1: case 2: birga yozilsa nimani bildiradi?
++ 1 yoki 2 bo‘lsa bir xil kod bajariladi
+- Faqat 1
+- Faqat 2
+- Xato
+
+# Kod: for(int i=0;i<3;i++) printf("%d ", i); — nima chiqadi?
++ 0 1 2
+- 1 2 3
+- 0 1 2 3
+- 0 1
+
+# Kod: for(int i=1;i<=3;i++) printf("%d ", i); — nima chiqadi?
++ 1 2 3
+- 0 1 2
+- 1 2
+- 1 2 3 4
+
+# Kod: for(int i=0;i<5;i++) printf("*"); — nima chiqadi?
++ *****
+- ****
+- ******
+- *
+
+# Kod: for(int i=5;i>0;i--) printf("%d ", i); — nima chiqadi?
++ 5 4 3 2 1
+- 5 4 3 2 1 0
+- 4 3 2 1
+- 1 2 3 4 5
+
+# Kod: for(int i=0;i<10;i+=3) printf("%d ", i); — nima chiqadi?
++ 0 3 6 9
+- 0 3 6
+- 3 6 9
+- 0 3 6 9 12
+
+# Kod: for(int i=0;i<10;i+=2) printf("%d ", i); — nima chiqadi?
++ 0 2 4 6 8
+- 0 2 4 6 8 10
+- 2 4 6 8
+- 0 1 2 3 4
+
+# Kod: int s=0; for(int i=1;i<=4;i++) s+=i; printf("%d", s); — nima chiqadi?
++ 10
+- 6
+- 4
+- 24
+
+# Kod: int s=0; for(int i=1;i<=5;i++) s+=i; printf("%d", s); — nima chiqadi?
++ 15
+- 10
+- 5
+- 120
+
+# Kod: int p=1; for(int i=1;i<=4;i++) p*=i; printf("%d", p); — nima chiqadi?
++ 24
+- 10
+- 4
+- 16
+
+# Kod: int c=0; for(int i=0;i<7;i++) c++; printf("%d", c); — nima chiqadi?
++ 7
+- 6
+- 8
+- 0
+
+# Kod: int s=0; for(int i=0;i<10;i++) if(i%2==0) s+=i; printf("%d", s); — nima chiqadi?
++ 20
+- 45
+- 25
+- 10
+
+# Kod: for(int i=0;i<5;i++){ if(i==3) break; printf("%d ", i);} — nima chiqadi?
++ 0 1 2
+- 0 1 2 3
+- 0 1 2 3 4
+- 3
+
+# Kod: for(int i=0;i<5;i++){ if(i==2) continue; printf("%d ", i);} — nima chiqadi?
++ 0 1 3 4
+- 0 1 2 3 4
+- 0 1
+- 2
+
+# Kod: for(int i=0;i<3;i++){ for(int j=0;j<2;j++) printf("*"); } — nima chiqadi?
++ ******
+- ***
+- **
+- *******
+
+# Kod: for(int i=1;i<=3;i++){ for(int j=1;j<=i;j++) printf("*"); printf(" "); } — nima chiqadi?
++ * ** ***
+- *** *** ***
+- * * *
+- *** ** *
+
+# Kod: int a[]={3,8,2}; int m=a[0]; for(int i=1;i<3;i++) if(a[i]>m) m=a[i]; printf("%d", m); — nima chiqadi?
++ 8
+- 3
+- 2
+- 13
+
+# Kod: int a[]={1,2,3}; int s=0; for(int i=0;i<3;i++) s+=a[i]; printf("%d", s); — nima chiqadi?
++ 6
+- 3
+- 123
+- 5
+
+# Kod: for(int i=0;i<3;i++) printf("%d", i*i); — nima chiqadi?
++ 014
+- 012
+- 149
+- 123
+
+# Kod: int i; for(i=0;i<4;i++); printf("%d", i); — nima chiqadi?
++ 4
+- 3
+- 0
+- hech narsa
+
+# Kod: for(char c='a';c<='c';c++) printf("%c", c); — nima chiqadi?
++ abc
+- abcd
+- ab
+- 123
+
+# Kod: for(int i=0;i<2;i++){ for(int j=0;j<3;j++) printf("%d", j); printf(" "); } — nima chiqadi?
++ 012 012
+- 012
+- 0 1 2
+- 012012
+
+# Kod: int c=0; for(int i=0;i<3;i++) for(int j=0;j<4;j++) c++; printf("%d", c); — nima chiqadi?
++ 12
+- 7
+- 3
+- 4
+
+# Kod: for(int i=1;i<=2;i++) for(int j=1;j<=2;j++) printf("%d ", i*j); — nima chiqadi?
++ 1 2 2 4
+- 1 2 3 4
+- 1 2 2 3
+- 2 4
+
+# Kod: int a[]={5,1,4}; int mn=a[0]; for(int i=1;i<3;i++) if(a[i]<mn) mn=a[i]; printf("%d", mn); — nima chiqadi?
++ 1
+- 5
+- 4
+- 10
+
+# Kod: int a[5]={0}; for(int i=0;i<5;i++) a[i]=i*2; printf("%d", a[4]); — nima chiqadi?
++ 8
+- 4
+- 10
+- 6
+
+# Kod: int cnt=0; for(int i=1;i<=20;i++) if(i%5==0) cnt++; printf("%d", cnt); — nima chiqadi?
++ 4
+- 5
+- 20
+- 3
+
+# Kod: int i=0; for(;;){ i++; if(i>=4) break; } printf("%d", i); — nima chiqadi?
++ 4
+- 3
+- 5
+- cheksiz
+
+# Kod: int t=0; for(int i=0;i<4;i++){ if(i==2) continue; t+=i; } printf("%d", t); — nima chiqadi?
++ 4
+- 6
+- 5
+- 3
+
+# for(int i=0; i<5; i++) — nechta marta takrorlanadi?
++ 5
+- 4
+- 6
+- 0
+
+# for(int i=1; i<=5; i++) — nechta marta takrorlanadi?
++ 5
+- 4
+- 6
+- 1
+
+# for(int i=0; i<10; i++) da i++ qaysi qismida turadi?
++ Oxirgi qism (qadam)
+- Birinchi qism (boshlang‘ich)
+- Ikkinchi qism (shart)
+- Sikl tanasi
+
+# for ning uchta qismi qanday ajratiladi?
++ Nuqta-vergul (;) bilan
+- Vergul (,) bilan
+- Ikki nuqta (:) bilan
+- Nuqta (.) bilan
+
+# for(;;) nima qiladi?
++ Cheksiz sikl
+- Hech narsa qilmaydi
+- Xato beradi
+- Bir marta bajariladi
+
+# for(int i=0; i<5; i++); oxiridagi ; nimaga olib keladi?
++ Sikl tanasi bo‘sh bo‘lib qoladi
+- Sikl tezlashadi
+- Dastur tugaydi
+- Hech narsa o‘zgarmaydi
+
+# Kod: int i=0; while(i<3){ printf("%d ", i); i++; } — nima chiqadi?
++ 0 1 2
+- 1 2 3
+- 0 1 2 3
+- cheksiz
+
+# Kod: int i=1; while(i<=4){ printf("%d ", i); i++; } — nima chiqadi?
++ 1 2 3 4
+- 0 1 2 3
+- 1 2 3
+- 1 2 3 4 5
+
+# Kod: int i=5; while(i>2){ printf("%d ", i); i--; } — nima chiqadi?
++ 5 4 3
+- 5 4 3 2
+- 4 3
+- 2 3 4 5
+
+# Kod: int i=10; while(i<5){ printf("X"); i++; }  printf("Y"); — nima chiqadi?
++ Y
+- XY
+- X
+- hech narsa
+
+# Kod: int i=10; do { printf("X"); i++; } while(i<5); — nima chiqadi?
++ X
+- hech narsa
+- XX
+- XXXXX
+
+# Kod: int i=0; do { printf("%d ", i); i++; } while(i<3); — nima chiqadi?
++ 0 1 2
+- 1 2 3
+- 0 1 2 3
+- 0 1
+
+# Kod: int n=3, s=0; while(n>0){ s+=n; n--; } printf("%d", s); — nima chiqadi?
++ 6
+- 3
+- 0
+- 9
+
+# Kod: int n=1234, c=0; while(n>0){ n/=10; c++; } printf("%d", c); — nima chiqadi?
++ 4
+- 3
+- 5
+- 1234
+
+# Kod: int n=123, s=0; while(n>0){ s+=n%10; n/=10; } printf("%d", s); — nima chiqadi?
++ 6
+- 123
+- 3
+- 321
+
+# Kod: int n=5, f=1; while(n>1){ f*=n; n--; } printf("%d", f); — nima chiqadi?
++ 120
+- 15
+- 24
+- 5
+
+# Kod: int i=0; while(1){ if(i==3) break; i++; } printf("%d", i); — nima chiqadi?
++ 3
+- 0
+- 4
+- cheksiz
+
+# Kod: int i=0; while(i<5){ i++; if(i==2) continue; printf("%d ", i); } — nima chiqadi?
++ 1 3 4 5
+- 1 2 3 4 5
+- 1 3 4
+- 2
+
+# Kod: int i=0, s=0; while(i<4){ s+=2; i++; } printf("%d", s); — nima chiqadi?
++ 8
+- 4
+- 6
+- 10
+
+# Kod: int a=12,b=18; while(b!=0){ int t=b; b=a%b; a=t; } printf("%d", a); — nima chiqadi?
++ 6
+- 12
+- 36
+- 3
+
+# Kod: int x=1; while(x<100) x*=2; printf("%d", x); — nima chiqadi?
++ 128
+- 100
+- 64
+- 200
+
+# Kod: int n=0; while(n<10){ n+=3; } printf("%d", n); — nima chiqadi?
++ 12
+- 9
+- 10
+- 11
+
+# Kod: int s=0, i=1; do { s+=i; i++; } while(i<=3); printf("%d", s); — nima chiqadi?
++ 6
+- 3
+- 10
+- 1
+
+# while(1) nima qiladi?
++ Cheksiz sikl (break bo‘lmasa)
+- Bir marta bajariladi
+- Hech qachon bajarilmaydi
+- Xato beradi
+
+# while(0) nima qiladi?
++ Tanasi hech qachon bajarilmaydi
+- Cheksiz sikl
+- Bir marta bajariladi
+- Xato
+
+# while ichida o‘zgaruvchi o‘zgarmasa nima bo‘ladi?
++ Sikl cheksiz bo‘lib qolishi mumkin
+- Sikl tezlashadi
+- Dastur o‘chadi
+- Hech nima
+
+# do { ... } while (shart); oxirida nima turadi?
++ Nuqta-vergul (;)
+- Ikki nuqta (:)
+- Hech nima
+- Vergul
+
+# Kod: int add(int a,int b){ return a+b; } main: printf("%d", add(2,3)); — nima chiqadi?
++ 5
+- 23
+- 6
+- 1
+
+# Kod: int sq(int x){ return x*x; } main: printf("%d", sq(4)); — nima chiqadi?
++ 16
+- 8
+- 12
+- 4
+
+# Kod: int sq(int x){ return x*x; } main: printf("%d", sq(3)+sq(2)); — nima chiqadi?
++ 13
+- 25
+- 5
+- 12
+
+# Kod: int dbl(int x){ return 2*x; } main: printf("%d", dbl(dbl(3))); — nima chiqadi?
++ 12
+- 6
+- 9
+- 10
+
+# Kod: int mx(int a,int b){ if(a>b) return a; return b; } main: printf("%d", mx(7,3)); — nima chiqadi?
++ 7
+- 3
+- 10
+- 4
+
+# Kod: int mx(int a,int b){ if(a>b) return a; return b; } main: printf("%d", mx(2,8)); — nima chiqadi?
++ 8
+- 2
+- 10
+- 6
+
+# Kod: int f(int x){ return x+1; } main: int a=5; f(a); printf("%d", a); — nima chiqadi?
++ 5
+- 6
+- 1
+- 11
+
+# Kod: void inc(int *p){ (*p)++; } main: int a=5; inc(&a); printf("%d", a); — nima chiqadi?
++ 6
+- 5
+- 4
+- manzil
+
+# Kod: void inc(int x){ x++; } main: int a=5; inc(a); printf("%d", a); — nima chiqadi?
++ 5
+- 6
+- 4
+- manzil
+
+# Kod: void swap(int *a,int *b){ int t=*a; *a=*b; *b=t; } main: int x=1,y=2; swap(&x,&y); printf("%d %d", x, y); — nima chiqadi?
++ 2 1
+- 1 2
+- 2 2
+- 1 1
+
+# Kod: void hi(){ printf("Salom "); } main: hi(); hi(); — nima chiqadi?
++ Salom Salom
+- Salom
+- SalomSalom
+- hi hi
+
+# Kod: void hi(){ printf("Salom"); } main: hi(); — nima chiqadi?
++ Salom
+- hi
+- hech narsa
+- Salom Salom
+
+# Kod: int fact(int n){ if(n<=1) return 1; return n*fact(n-1); } main: printf("%d", fact(4)); — nima chiqadi?
++ 24
+- 10
+- 12
+- 4
+
+# Kod: int fact(int n){ if(n<=1) return 1; return n*fact(n-1); } main: printf("%d", fact(5)); — nima chiqadi?
++ 120
+- 15
+- 24
+- 25
+
+# Kod: int sum(int n){ if(n==0) return 0; return n+sum(n-1); } main: printf("%d", sum(4)); — nima chiqadi?
++ 10
+- 4
+- 24
+- 6
+
+# Kod: int fib(int n){ if(n<2) return n; return fib(n-1)+fib(n-2); } main: printf("%d", fib(6)); — nima chiqadi?
++ 8
+- 5
+- 13
+- 6
+
+# Kod: int isEven(int n){ return n%2==0; } main: printf("%d", isEven(6)); — nima chiqadi?
++ 1
+- 6
+- 0
+- 2
+
+# Kod: int isEven(int n){ return n%2==0; } main: printf("%d", isEven(7)); — nima chiqadi?
++ 0
+- 1
+- 7
+- 3
+
+# Kod: int abs1(int x){ if(x<0) return -x; return x; } main: printf("%d", abs1(-5)); — nima chiqadi?
++ 5
+- -5
+- 0
+- 10
+
+# Kod: int cnt=0; void tick(){ cnt++; } main: tick(); tick(); tick(); printf("%d", cnt); — nima chiqadi?
++ 3
+- 0
+- 1
+- 6
+
+# Kod: void f(){ static int c=0; c++; printf("%d ", c); } main: f(); f(); f(); — nima chiqadi?
++ 1 2 3
+- 1 1 1
+- 0 1 2
+- 3
+
+# Kod: void f(){ int c=0; c++; printf("%d ", c); } main: f(); f(); f(); — nima chiqadi?
++ 1 1 1
+- 1 2 3
+- 0 0 0
+- 3
+
+# Kod: int sumArr(int a[], int n){ int s=0; for(int i=0;i<n;i++) s+=a[i]; return s; } main: int x[]={1,2,3,4}; printf("%d", sumArr(x,4)); — nima chiqadi?
++ 10
+- 4
+- 24
+- 6
+
+# Kod: int g(int x){ return x>0 ? 1 : -1; } main: printf("%d %d", g(5), g(-5)); — nima chiqadi?
++ 1 -1
+- 1 1
+- -1 -1
+- -1 1
+
+# Kod: double half(double x){ return x/2; } main: printf("%.1f", half(5)); — nima chiqadi?
++ 2.5
+- 2
+- 3.0
+- 10.0
+
+# Kod: int f(int x){ return x*2; } int g(int x){ return f(x)+1; } main: printf("%d", g(3)); — nima chiqadi?
++ 7
+- 6
+- 8
+- 9
+
+# Kod: int f(int n){ if(n==0) return 0; return 1+f(n-1); } main: printf("%d", f(5)); — nima chiqadi?
++ 5
+- 0
+- 6
+- 1
+
+# Kod: int pw(int a,int n){ if(n==0) return 1; return a*pw(a,n-1); } main: printf("%d", pw(2,5)); — nima chiqadi?
++ 32
+- 10
+- 25
+- 16
+
+# Kod: void down(int n){ if(n==0) return; printf("%d ", n); down(n-1); } main: down(3); — nima chiqadi?
++ 3 2 1
+- 1 2 3
+- 3 2 1 0
+- 0 1 2
+
+# Kod: int add(int a,int b){ return a+b; } main: int x=add(1,2); int y=add(x,x); printf("%d", y); — nima chiqadi?
++ 6
+- 3
+- 4
+- 12
+
+# Kod: int f(int a){ a=a+10; return a; } main: int v=1; int r=f(v); printf("%d %d", v, r); — nima chiqadi?
++ 1 11
+- 11 11
+- 1 1
+- 11 1
+
+# Kod: void p(int n){ for(int i=0;i<n;i++) printf("#"); } main: p(4); — nima chiqadi?
++ ####
+- ###
+- #####
+- 4
+
+# Kod: int fn(int x){ switch(x){case 1: return 10; case 2: return 20; default: return 0;} } main: printf("%d", fn(2)); — nima chiqadi?
++ 20
+- 10
+- 0
+- 30
+
+# Kod: int fn(int x){ switch(x){case 1: return 10; case 2: return 20; default: return 0;} } main: printf("%d", fn(7)); — nima chiqadi?
++ 0
+- 10
+- 20
+- 7
+
+# C dasturi qaysi funksiyadan boshlanadi?
++ main
+- start
+- begin
+- printf
+
+# Funksiya chaqirish qanday yoziladi?
++ nom(argumentlar);
+- call nom;
+- run nom();
+- nom{};
+
+# Rekursiyada to‘xtash sharti nima uchun kerak?
++ Cheksiz chaqirishning oldini olish uchun
+- Tezlik uchun
+- Xotira ajratish uchun
+- Izoh uchun
