@@ -1,0 +1,41 @@
+﻿# C kodida sizeof(char) necha bayt?
++ 1
+- 2
+- 4
+- 8
+
+# C kodida sizeof(double) necha bayt?
++ 8
+- 4
+- 16
+- 2
+
+# struct P { int x; int y; }; — sizeof(struct P) necha bayt?
++ 8
+- 4
+- 16
+- 2
+
+# struct S { char a; int b; }; — sizeof(struct S) necha bayt?
++ 8
+- 5
+- 4
+- 6
+
+# struct S { char a; char b; }; — sizeof(struct S) necha bayt?
++ 2
+- 4
+- 1
+- 8
+
+# struct S { int b; char a; char c; }; — sizeof(struct S) necha bayt?
++ 8
+- 6
+- 12
+- 4
+
+# Padding nima?
++ Tekislash uchun struct ichiga qo‘shiladigan bo‘sh baytlar
+- Funksiya argumenti
+- Kod izohi
+- Fayl oxiridagi bo‘sh qator
